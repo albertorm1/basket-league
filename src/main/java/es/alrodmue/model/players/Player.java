@@ -3,6 +3,10 @@
 
 package es.alrodmue.model.players;
 
+import es.alrodmue.model.exceptions.PlayerInvalidDataException;
+import es.alrodmue.model.exceptions.PlayerInvalidHeightException;
+import es.alrodmue.model.exceptions.PlayerInvalidNameException;
+import es.alrodmue.model.exceptions.PlayerInvalidSkillException;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -16,8 +20,10 @@ public abstract class Player {
     protected int points;
     protected ObservableList<String> fouls; // TODO: replace T
 
-    public Player(String name, int height, int skill) {
-        // TODO: checks
+    public Player(String name, int height, int skill) throws PlayerInvalidDataException {
+        if (!isNameValid(name)) throw new PlayerInvalidNameException();
+        if (!isHeightValid(height)) throw new PlayerInvalidHeightException();
+        if (!isSkillValid(skill)) throw new PlayerInvalidSkillException();
 
         this.name = name;
         this.number = nextNumber++;
@@ -50,6 +56,42 @@ public abstract class Player {
 
     public ObservableList<String> getFouls() { // TODO: replace T
         return this.fouls;
+    }
+
+    // Comprobadores
+    public static boolean isNameValid(String name) {
+        if (name == null) return false;
+        if (name.isBlank()) return false;
+        if (!name.matches("^([A-Z][a-z]*)+[A-Z][a-z]*$")) return false;
+        return true;
+    }
+
+    public static boolean isNumberValid(int number) {
+        if (number < 1) return false;
+        if (number > 99) return false;
+        return true;
+    }
+
+    public static boolean isHeightValid(int height) {
+        if (height < 150) return false;
+        if (height > 250) return false;
+        return true;
+    }
+
+    public static boolean isSkillValid(int skill) {
+        if (skill < 1) return false;
+        if (skill > 5) return false;
+        return true;
+    }
+
+    public static boolean arePointsValid(int points) {
+        if (points < 0) return false;
+        return true;
+    }
+
+    public static boolean isFoulValid(String foul) { // TODO: replace type
+        if (foul == null) return false;
+        return true;
     }
 
     // Método para añadir puntos
