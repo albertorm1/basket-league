@@ -3,6 +3,7 @@ package es.alrodmue.model.fouls;
 import es.alrodmue.model.exceptions.FoulInvalidDataException;
 import es.alrodmue.model.exceptions.FoulInvalidMatchException;
 import es.alrodmue.model.exceptions.FoulInvalidPlayerException;
+import es.alrodmue.model.matches.Match;
 import es.alrodmue.model.players.Player;
 
 /**
@@ -12,13 +13,13 @@ import es.alrodmue.model.players.Player;
 public abstract class Foul {
     
     protected final Player player;
-    protected final String match; // TODO: replace type
+    protected final Match match;
 
     /**
      * Constructor, que crea la falta en función a un jugador y un partido dados.
      * 
      */
-    public Foul(Player player, String match) throws FoulInvalidDataException { // TODO: replace type
+    public Foul(Player player, Match match) throws FoulInvalidDataException {
         if(!isPlayerValid(player)) throw new FoulInvalidPlayerException();
         if(!isMatchValid(match)) throw new FoulInvalidMatchException();
 
@@ -41,7 +42,7 @@ public abstract class Foul {
      * @param match Partido a comprobar
      * @returns Valor booleano indicando si el partido es válido (true) o no (false)
      */
-    public static boolean isMatchValid(String match) { // TODO: replace type
+    public static boolean isMatchValid(Match match) {
         if (match == null) return false;
         return true;
     }
@@ -58,7 +59,7 @@ public abstract class Foul {
      * Méetodo para obtener el partido en el que se ha cometido la falta
      * @returns Partido en el que se ha cometido la falta.
      */
-    public String getMatch() {
+    public Match getMatch() {
         return this.match;
     }
 
