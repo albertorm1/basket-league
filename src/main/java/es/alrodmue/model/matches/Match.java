@@ -122,4 +122,10 @@ public abstract class Match {
      * @returns Valor booleano que indica si el ganador es el equipo propio (true) o el rival (false)
      */
     protected abstract boolean isOwnTeamWinner();
+
+    /** 
+     * Método abstracto que devuelve el tipo de partido. 
+     * @returns String con el tipo de partido.
+     */
+    public abstract String getType();
 }
