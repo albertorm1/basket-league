@@ -5,7 +5,7 @@ import es.alrodmue.model.matches.Match;
 import es.alrodmue.model.players.Player;
 
 /**
- * Clase para faltas personales
+ * Clase para faltas personales.
  * @author Alberto Rodriguez Muelas
  */
 public class PersonalFoul extends Foul {
