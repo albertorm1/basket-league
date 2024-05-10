@@ -7,6 +7,7 @@ import es.alrodmue.model.exceptions.PlayerInvalidDataException;
 import es.alrodmue.model.exceptions.PlayerInvalidHeightException;
 import es.alrodmue.model.exceptions.PlayerInvalidNameException;
 import es.alrodmue.model.exceptions.PlayerInvalidSkillException;
+import es.alrodmue.model.fouls.Foul;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -23,7 +24,7 @@ public abstract class Player {
     protected int height;
     protected int skill;
     protected int points;
-    protected ObservableList<String> fouls; // TODO: replace T
+    protected ObservableList<Foul> fouls;
 
     /**
      * Constructor de la clase, que crea un nuevo jugador a partir de su nombre, altura y habilidad, siempre que estos sean válidos.
@@ -101,7 +102,7 @@ public abstract class Player {
      * Método para obtener todas las faltas que ha cometido el jugador durante la temporada.
      * @return Lista observable que contiene las faltas cometidas por el jugador.
      */ 
-    public ObservableList<String> getFouls() { // TODO: replace T
+    public ObservableList<Foul> getFouls() {
         return this.fouls;
     }
 
@@ -181,7 +182,7 @@ public abstract class Player {
      * @param foul Falta a evaluar.
      * @return Valor booleano que indica si la falta es válida (true) o no (false).
      */
-    public static boolean isFoulValid(String foul) { // TODO: replace type
+    public static boolean isFoulValid(Foul foul) {
         if (foul == null) return false;
         return true;
     }
@@ -196,7 +197,7 @@ public abstract class Player {
     }
 
     // Método para añadir faltas
-    // TO-DO
+    // TODO
 
     /**
      * Método para obtener una cadena de texto con todos los detalles del jugador.
