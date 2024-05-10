@@ -17,7 +17,10 @@ public abstract class Foul {
 
     /**
      * Constructor, que crea la falta en función a un jugador y un partido dados.
-     * 
+     * @param player Jugador que comete la falta.
+     * @param match Partido en el que se comete la falta.
+     * @throws FoulInvalidDataException Excepción que indica que alguno de los parámetros no es válido. Contiene un mensaje entendible
+     * para el usuario.
      */
     public Foul(Player player, Match match) throws FoulInvalidDataException {
         if(!isPlayerValid(player)) throw new FoulInvalidPlayerException();
