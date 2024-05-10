@@ -7,6 +7,7 @@ import es.alrodmue.model.players.Player;
 
 /**
  * Clase abstracta para los distintos tipos de faltas existentes en el baloncesto
+ * @author Alberto Rodriguez Muelas
  */
 public abstract class Foul {
     
