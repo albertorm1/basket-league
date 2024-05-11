@@ -6,7 +6,7 @@ import es.alrodmue.model.exceptions.PlayerInvalidDataException;
  * Clase para jugadores alero. 
  * @author Alberto Rodriguez Muelas
  */
-public class SmallGuardPlayer extends Player {
+public class SmallForwardPlayer extends Player {
     
     /**
      * Constructor de la clase, que crea un nuevo jugador a partir de su nombre, altura y habilidad, siempre que estos sean válidos.
@@ -26,7 +26,7 @@ public class SmallGuardPlayer extends Player {
      * un mensaje de error entendible para el usuario.
      */
 
-    public SmallGuardPlayer (String name, int height, int skill) throws PlayerInvalidDataException {
+    public SmallForwardPlayer (String name, int height, int skill) throws PlayerInvalidDataException {
         super(name, height, skill);
     }
 
