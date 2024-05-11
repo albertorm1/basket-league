@@ -3,6 +3,7 @@ package es.alrodmue.model.matches;
 import java.time.LocalDate;
 
 import es.alrodmue.model.exceptions.MatchInvalidDataException;
+import es.alrodmue.model.players.Player;
 
 /**
  * Clase para partidos oficiales jugando como equipo local.
@@ -15,9 +16,10 @@ public class OfficialLocalMatch extends Match {
      * @param date Fecha del partido
      * @throws MatchInvalidDataException Excepción que indica si algún dato del partido no es válido. El mensaje de la excepción contiene un mensaje
      * de error entendible por el usuario.
+     * @throws Exception Excepción inesperada.
      */
-    public OfficialLocalMatch(LocalDate date) throws MatchInvalidDataException {
-        super(date);
+    public OfficialLocalMatch(LocalDate date, Player[] players) throws MatchInvalidDataException, Exception {
+        super(date, players);
     }
 
     /**
