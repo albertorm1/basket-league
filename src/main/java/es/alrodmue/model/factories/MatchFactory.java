@@ -7,6 +7,7 @@ import es.alrodmue.model.matches.ExhibitionMatch;
 import es.alrodmue.model.matches.Match;
 import es.alrodmue.model.matches.OfficialLocalMatch;
 import es.alrodmue.model.matches.OfficialVisitorMatch;
+import es.alrodmue.model.players.Player;
 
 /**
  * Factoría para partidos. Implementa el patrón de diseño singleton.
@@ -36,19 +37,20 @@ public class MatchFactory {
      * @param date Fecha en la que transcurre el partido.
      * @returns Partido del tipo correspondiente.
      * @throws MatchInvalidDataException Excepción que se produce cuando alguno de los datos del partido no es válido. Contiene un mensaje de error entendible por el usuario.
+     * @throws Exception Excepción inesperada.
      */
-    public Match create(String type, LocalDate date) throws MatchInvalidDataException{
+    public Match create(String type, LocalDate date, Player[] players) throws MatchInvalidDataException, Exception {
         Match match;
 
         switch (type) {
             case "Oficial (Local)":
-                match = new OfficialLocalMatch(date);
+                match = new OfficialLocalMatch(date, players);
                 break;
             case "Oficial (Visitante)":
-                match = new OfficialVisitorMatch(date);
+                match = new OfficialVisitorMatch(date, players);
                 break;
             default:
-                match = new ExhibitionMatch(date);
+                match = new ExhibitionMatch(date, players);
                 break;
         }
 
