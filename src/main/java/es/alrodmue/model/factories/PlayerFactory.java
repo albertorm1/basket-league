@@ -35,6 +35,7 @@ public class PlayerFactory {
      * @param name Nombre completo del jugador.
      * @param height Altura del jugador en centímetros.
      * @param skill Nivel de habilidad del jugador, expresado del 1 al 5.
+     * @returns Jugador generado.
      * @throws PlayerInvalidDataException Excepción que se producirá si alguno de los datos del jugador no es válido. Contiene como mensaje un mensaje de error entendible por los usuarios.
      */
     public Player create(String name, int height, int skill) throws PlayerInvalidDataException {
