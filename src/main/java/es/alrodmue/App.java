@@ -8,6 +8,9 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+import es.alrodmue.controller.PlayerController;
+import es.alrodmue.model.Team;
+
 /**
  * JavaFX App
  */
