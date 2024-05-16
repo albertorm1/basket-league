@@ -3,6 +3,7 @@ package es.alrodmue.model.matches;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 import es.alrodmue.model.exceptions.MatchInvalidDataException;
 import es.alrodmue.model.exceptions.MatchInvalidDateException;
@@ -178,6 +179,37 @@ public abstract class Match {
      */
     public ArrayList<Foul> getFouls() {
         return this.fouls;
+    }
+
+    /**
+     * Método para obtener los detalles del partido.
+     * @return String con los detalles del partido.
+     */
+    public String getDetails() {
+        String details = "";
+
+        // Detalles generales
+        details += String.format("Fecha: %s\n", this.date);
+        details += String.format("Tipo: %s\n\n", this.getType());
+
+        // Puntos y ganador
+        details += String.format("Puntos propios: %s ptos.\n", this.ownPoints);
+        details += String.format("Puntos rival: %s ptos.\n", this.rivalPoints);
+        details += String.format("Ganador: %s\n\n", this.getWinner());
+
+        // Jugadores y puntos por jugador
+        details += "Jugadores:\n";
+        for (Map.Entry<Player, Integer> player : this.playerPoints.entrySet()) {
+            details += String.format("%s - %s ptos.\n", player.getKey(), player.getValue());
+        }
+
+        // Faltas
+        details += "\nFaltas:\n";
+        for (Foul foul : this.fouls) {
+            String.format("%s - %s\n", foul.getType(), foul.getPlayer());
+        }
+
+        return details;
     }
 
     /**
