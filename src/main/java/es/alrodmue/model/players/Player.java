@@ -196,8 +196,13 @@ public abstract class Player {
         this.points += points;
     }
 
-    // Método para añadir faltas
-    // TODO
+    /**
+     * Método que añade faltas al jugador.
+     * @param foul Falta a añadir.
+     */
+    public void addFoul(Foul foul) {
+        this.fouls.add(foul);
+    }
 
     /**
      * Método para obtener una cadena de texto con todos los detalles del jugador.
