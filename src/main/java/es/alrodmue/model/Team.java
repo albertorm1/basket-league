@@ -4,9 +4,15 @@ import es.alrodmue.model.exceptions.TeamInvalidDataException;
 import es.alrodmue.model.exceptions.TeamPlayerListFullException;
 import es.alrodmue.model.exceptions.TeamPlayerPositionFullException;
 import es.alrodmue.model.matches.Match;
+import es.alrodmue.model.players.CenterPlayer;
 import es.alrodmue.model.players.Player;
+import es.alrodmue.model.players.PointGuardPlayer;
+import es.alrodmue.model.players.PowerForwardPlayer;
+import es.alrodmue.model.players.ShootingGuardPlayer;
+import es.alrodmue.model.players.SmallForwardPlayer;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.collections.transformation.FilteredList;
 
 /**
  * Clase para el equipo de baaloncesto. Utiliza el patrón de diseño singleton.
@@ -72,6 +78,37 @@ public class Team {
      */
     public ObservableList<Player> getPlayerList() {
         return this.playerList;
+    }
+
+    /**
+     * Método para obtener los jugadores de un tipo concreto.
+     * @params Tipo de jugador a obtener.
+     * @returns Lista de jugadores de un tipo concreto.
+     */
+    public Player[] getPlayerList(String playerType) {
+        FilteredList<Player> filtered;
+        Player[] typeList;
+
+        // Filtra la lista en función del tipo de jugador.
+        if (playerType.equals("center")) {
+            filtered = this.playerList.filtered((Player player) -> player instanceof CenterPlayer);
+        } else if (playerType.equals("pointGuard")) {
+            filtered = this.playerList.filtered((Player player) -> player instanceof PointGuardPlayer);
+        } else if (playerType.equals("powerForward")) {
+            filtered = this.playerList.filtered((Player player) -> player instanceof PowerForwardPlayer);
+        } else if (playerType.equals("shootingGuard")) {
+            filtered = this.playerList.filtered((Player player) -> player instanceof ShootingGuardPlayer);
+        } else if (playerType.equals("smallForward")) {
+            filtered = this.playerList.filtered((Player player) -> player instanceof SmallForwardPlayer);
+        } else {
+            filtered = this.playerList.filtered((Player player) -> player instanceof Player);
+        }
+
+        // Almacena la lista filtrada en un array.
+        typeList = new Player[filtered.size()];
+        filtered.toArray(typeList);
+
+        return typeList;
     }
 
     /**
