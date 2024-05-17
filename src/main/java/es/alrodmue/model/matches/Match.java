@@ -222,5 +222,5 @@ public abstract class Match {
      * Método abstracto que devuelve el tipo de partido. 
      * @returns String con el tipo de partido.
      */
-    public abstract String getType();
+    public abstract MatchType getType();
 }

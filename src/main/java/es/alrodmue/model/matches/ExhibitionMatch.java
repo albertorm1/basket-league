@@ -36,7 +36,7 @@ public class ExhibitionMatch extends Match {
      * @returns String con el tipo de partido.
      */
     @Override
-    public String getType() {
-        return "Exhibición";
+    public MatchType getType() {
+        return MatchType.EXHIBITION;
     }
 }

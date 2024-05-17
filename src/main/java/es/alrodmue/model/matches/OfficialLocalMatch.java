@@ -36,7 +36,7 @@ public class OfficialLocalMatch extends Match {
      * @returns String con el tipo de partido.
      */
     @Override
-    public String getType() {
-        return "Oficial (local)";
+    public MatchType getType() {
+        return MatchType.OFFICIAL_LOCAL; 
     }
 }

@@ -36,7 +36,7 @@ public class OfficialVisitorMatch extends Match {
      * @returns String con el tipo de partido.
      */
     @Override
-    public String getType() {
-        return "Oficial (visitante)";
+    public MatchType getType() {
+        return MatchType.OFFICIAL_VISITOR;
     }
 }
