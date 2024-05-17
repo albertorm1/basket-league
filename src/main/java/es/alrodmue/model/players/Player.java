@@ -211,15 +211,17 @@ public abstract class Player {
     public String getDetail() {
         String details = "";
 
-        details += String.format("Nombre:\n%s\n\n", this.name);
-        details += String.format("Numero de dorsal:\n%s\n\n", this.number);
-        details += String.format("Posición:\n%s\n\n", this.getType());
-        details += String.format("Altura:\n%s cm\n\n", this.height);
-        details += String.format("Habilidad:\n%s estrellas\n\n", this.skill);
-        details += String.format("Puntos:\n%s puntos\n\n", this.points);
+        details += String.format("Nombre: %s\n", this.name);
+        details += String.format("Numero de dorsal: %s\n", this.number);
+        details += String.format("Posición: %s\n", this.getType());
+        details += String.format("Altura: %s cm\n", this.height);
+        details += String.format("Habilidad: %s estrellas\n", this.skill);
+        details += String.format("Puntos: %s puntos\n", this.points);
 
-        details += "Faltas:\n";
-        // TODO: add fouls
+        details += "\nFaltas:\n";
+        for (Foul foul : this.fouls) {
+            details += String.format("%s - %s", foul.getMatch().getDate(), foul.getType());
+        }
 
         return details;
     }
