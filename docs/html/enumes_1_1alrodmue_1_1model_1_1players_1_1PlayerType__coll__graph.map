@@ -1,3 +1,5 @@
 <map id="es.alrodmue.model.players.PlayerType" name="es.alrodmue.model.players.PlayerType">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,201,165"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,201,313"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="77,5,129,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,71,106,117,101,117,101,71"/>
 </map>

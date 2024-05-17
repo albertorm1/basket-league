@@ -1,3 +1,5 @@
 <map id="es.alrodmue.model.matches.MatchType" name="es.alrodmue.model.matches.MatchType">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,209,125"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,209,273"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="65,5,149,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,71,110,117,105,117,105,71"/>
 </map>
