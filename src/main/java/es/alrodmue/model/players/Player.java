@@ -220,7 +220,7 @@ public abstract class Player {
 
         details += "\nFaltas:\n";
         for (Foul foul : this.fouls) {
-            details += String.format("%s - %s", foul.getMatch().getDate(), foul.getType());
+            details += String.format("%s - %s\n", foul.getMatch().getDate(), foul.getType());
         }
 
         return details;
