@@ -9,11 +9,6 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-import es.alrodmue.controller.PlayerController;
-import es.alrodmue.model.Team;
-import es.alrodmue.model.factories.PlayerFactory;
-import es.alrodmue.model.players.Player;
-
 /**
  * JavaFX App
  */
@@ -54,16 +49,6 @@ public class App extends Application {
     }
 
     public static void main(String[] args) throws Exception {
-        // Test data
-        String[] names = {"Juan Perez", "Pedro Martinez", "Luis Lopez", "Jose Ramirez", "Javier Gomez", "Alberto Ortiz", "Daniel Hernandez", "Carlos Morales", "Francisco Ruiz", "Miguel Torres", "Andres Fernandez", "Rafael Sanchez", "Antonio Rodriguez", "Diego Gonzalez", "Victor Jimenez"}; 
-        int[] heights = {182, 156, 162, 204, 167, 166, 244, 250, 201, 203, 247, 250, 250, 233, 250};
-        int[] skills = {5, 4, 5, 4, 3, 3, 4, 5, 2, 1, 2, 3, 2, 1, 2};
-        Player player;
-
-        for (int i = 0; i < 15; i++) {
-            player = PlayerFactory.getInstance().create(names[i], heights[i], skills[i]);
-            Team.getInstance().addPlayer(player);
-        }
         launch();
     }
 
