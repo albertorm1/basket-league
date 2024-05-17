@@ -4,6 +4,6 @@ module es.alrodmue {
     requires transitive javafx.graphics;
     requires javafx.base;
 
-    opens es.alrodmue to javafx.fxml;
+    opens es.alrodmue.view to javafx.fxml;
     exports es.alrodmue;
 }

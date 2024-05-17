@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.alrodmue.view.MainViewController">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <TitledPane animated="false" collapsible="false" text="Jugadores" VBox.vgrow="ALWAYS">
+        <content>
+          <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="99999.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <HBox layoutX="102.0" layoutY="79.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <TableView fx:id="playerTable" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                          <columns>
+                            <TableColumn fx:id="playerName" prefWidth="75.0" text="Nombre" />
+                              <TableColumn fx:id="playerNumber" prefWidth="75.0" text="Numero de dorsal" />
+                              <TableColumn fx:id="playerPosition" prefWidth="75.0" text="Posición" />
+                          </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <VBox prefHeight="200.0" prefWidth="150.0" spacing="10.0" HBox.hgrow="NEVER">
+                           <children>
+                              <VBox spacing="10.0" VBox.vgrow="NEVER">
+                                 <children>
+                                    <Button fx:id="addPlayerButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Añadir" />
+                                    <Button fx:id="viewPlayerButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Ver" />
+                                    <Button fx:id="deletePlayerButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Eliminar" />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="BOTTOM_LEFT" spacing="10.0" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <ChoiceBox fx:id="playerTypeSelect" prefHeight="40.0" prefWidth="99999.0" />
+                                    <Button fx:id="playerTypeButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Ver por tipo" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <TitledPane animated="false" collapsible="false" text="Partidos" VBox.vgrow="ALWAYS">
+         <content>
+            <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="99999.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <TableView fx:id="matchTable" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                           <columns>
+                              <TableColumn fx:id="matchDate" prefWidth="75.0" text="Fecha" />
+                              <TableColumn fx:id="matchType" prefWidth="75.0" text="Tipo" />
+                              <TableColumn fx:id="matchWinner" prefWidth="75.0" text="Ganador" />
+                           </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <VBox prefHeight="200.0" prefWidth="150.0" spacing="10.0" HBox.hgrow="NEVER">
+                           <children>
+                              <Button fx:id="playMatchButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Jugar" />
+                              <Button fx:id="viewMatchButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Detalles" />
+                              <Button fx:id="lastMatchButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Ultimo partido" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+   </children>
+</VBox>
