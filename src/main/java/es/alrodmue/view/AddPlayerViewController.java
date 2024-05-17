@@ -21,14 +21,14 @@ public class AddPlayerViewController implements Initializable {
     // Obtención de objetos
     @FXML private TextField playerName, playerHeight;
     @FXML private Slider playerSkill;
-    @FXML private Button accepButton, cancelButton;
+    @FXML private Button acceptButton, cancelButton;
 
     /**
      * Inicialización de la vista.
      */
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
-        accepButton.disableProperty().bind(Bindings.or(playerName.textProperty().isEmpty(), playerHeight.textProperty().isEmpty()));
+        acceptButton.disableProperty().bind(Bindings.or(playerName.textProperty().isEmpty(), playerHeight.textProperty().isEmpty()));
     }
 
     /**
@@ -46,7 +46,7 @@ public class AddPlayerViewController implements Initializable {
     private void onAcceptButtonClick() {
         PlayerController controller = PlayerController.getInstance();
         String name = playerName.getText();
-        String height = playerName.getText();
+        String height = playerHeight.getText();
         int skill = (int) playerSkill.getValue();
         controller.createPlayer(name, height, skill);
     }

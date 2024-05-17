@@ -120,7 +120,7 @@ public abstract class Player {
     public static boolean isNameValid(String name) {
         if (name == null) return false;
         if (name.isBlank()) return false;
-        if (!name.matches("^([A-Z][a-z]*)+[A-Z][a-z]*$")) return false;
+        if (!name.matches("^([A-Z][a-z]* )+[A-Z][a-z]*$")) return false;
         return true;
     }
 

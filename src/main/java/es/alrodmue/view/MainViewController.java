@@ -1,9 +1,12 @@
 package es.alrodmue.view;
 
+import java.io.IOException;
 import java.net.URL;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
+import es.alrodmue.App;
+import es.alrodmue.controller.PlayerController;
 import es.alrodmue.model.Team;
 import es.alrodmue.model.matches.Match;
 import es.alrodmue.model.players.Player;
@@ -66,6 +69,33 @@ public class MainViewController implements Initializable {
         viewMatchButton.disableProperty().bind(matchTable.getSelectionModel().selectedItemProperty().isNull());
 
         addPlayerButton.disableProperty().bind(Bindings.lessThanOrEqual(15, Bindings.size(playerList)));
+    }
+
+    /**
+     * Método que se ejecuta cuando se pulsa en el botón de añadir jugador.
+     * @throws IOException
+     */
+    @FXML
+    private void onAddPlayerButtonClick() throws IOException {
+        App.showModal("addPlayer", "Crear jugador");
+    }
+
+    /**
+     * Método que se ejecuta cuando se pulsa en el botón de ver jugador.
+     * @throws IOException
+     */
+    @FXML
+    private void onViewPlayerButtonClick() throws IOException {
+        PlayerController.getInstance().showPlayerDetails(playerTable.getSelectionModel().getSelectedItem());
+    }
+
+    /**
+     * Método que se ejecuta cuando se pulsa en el botón de eliminar jugador.
+     * @throws IOException
+     */
+    @FXML
+    private void onDeletePlayerButtonClick() throws IOException {
+        PlayerController.getInstance().removePlayer(playerTable.getSelectionModel().getSelectedItem());
     }
 
 }
