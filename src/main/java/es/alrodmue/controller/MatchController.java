@@ -3,6 +3,7 @@ package es.alrodmue.controller;
 import java.time.LocalDate;
 import java.util.Map;
 
+import es.alrodmue.App;
 import es.alrodmue.model.Team;
 import es.alrodmue.model.exceptions.MatchInvalidDataException;
 import es.alrodmue.model.factories.MatchFactory;
@@ -81,6 +82,7 @@ public class MatchController {
 
             // Añade el partido a la lista y muestra los detalles del partido
             team.addMatch(match);
+            App.closeModal();
             this.showInfo("Resumen del partido", match.getDetails());
 
         } catch (MatchInvalidDataException e) {
