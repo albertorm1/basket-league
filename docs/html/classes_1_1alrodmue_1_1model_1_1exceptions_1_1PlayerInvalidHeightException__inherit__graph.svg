@@ -34,9 +34,9 @@
 <text text-anchor="start" x="84.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="8.5" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="21.5" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerInvalidDataException()</text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="4.5,-128 4.5,-128 168.5,-128 168.5,-128 4.5,-128"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="4.5,-113 4.5,-113 168.5,-113 168.5,-113 4.5,-113"/>
-<polygon fill="none" stroke="#bfbfbf" points="4.5,-96 4.5,-156 168.5,-156 168.5,-96 4.5,-96"/>
+<polygon fill="#666666" stroke="#666666" points="4.5,-128 4.5,-128 168.5,-128 168.5,-128 4.5,-128"/>
+<polygon fill="#666666" stroke="#666666" points="4.5,-113 4.5,-113 168.5,-113 168.5,-113 4.5,-113"/>
+<polygon fill="none" stroke="#666666" points="4.5,-96 4.5,-156 168.5,-156 168.5,-96 4.5,-96"/>
 </a>
 </g>
 </g>
@@ -57,9 +57,9 @@
 <text text-anchor="start" x="62.5" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">Exception</text>
 <text text-anchor="start" x="85" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="85" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="57.5,-223.5 57.5,-223.5 116.5,-223.5 116.5,-223.5 57.5,-223.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="57.5,-208.5 57.5,-208.5 116.5,-208.5 116.5,-208.5 57.5,-208.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="57,-192 57,-241 116,-241 116,-192 57,-192"/>
+<polygon fill="#666666" stroke="#666666" points="57.5,-223.5 57.5,-223.5 116.5,-223.5 116.5,-223.5 57.5,-223.5"/>
+<polygon fill="#666666" stroke="#666666" points="57.5,-208.5 57.5,-208.5 116.5,-208.5 116.5,-208.5 57.5,-208.5"/>
+<polygon fill="none" stroke="#666666" points="57,-192 57,-241 116,-241 116,-192 57,-192"/>
 </a>
 </g>
 </g>

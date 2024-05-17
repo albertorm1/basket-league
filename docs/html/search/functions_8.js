@@ -1,10 +1,14 @@
 var searchData=
 [
-  ['personalfoul_0',['PersonalFoul',['../classes_1_1alrodmue_1_1model_1_1fouls_1_1PersonalFoul.xhtml#a2345fbf8fc4a4416ff266b894b36b882',1,'es::alrodmue::model::fouls::PersonalFoul']]],
-  ['player_1',['Player',['../classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a4f8f54729fc34489756e1a55635e3e59',1,'es::alrodmue::model::players::Player']]],
-  ['playercontroller_2',['PlayerController',['../classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#a7d662190dc70153a9fdb9f3b18830a4f',1,'es::alrodmue::controller::PlayerController']]],
-  ['playerfactory_3',['PlayerFactory',['../classes_1_1alrodmue_1_1model_1_1factories_1_1PlayerFactory.xhtml#aa90466601c77d1dc541e04729d19146f',1,'es::alrodmue::model::factories::PlayerFactory']]],
-  ['playmatch_4',['playMatch',['../classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#a42b9493f74fbd7a9a545daceae923762',1,'es::alrodmue::controller::MatchController']]],
-  ['pointguardplayer_5',['PointGuardPlayer',['../classes_1_1alrodmue_1_1model_1_1players_1_1PointGuardPlayer.xhtml#aa73dff7198a1db00b29f76e866c6c5a3',1,'es::alrodmue::model::players::PointGuardPlayer']]],
-  ['powerforwardplayer_6',['PowerForwardPlayer',['../classes_1_1alrodmue_1_1model_1_1players_1_1PowerForwardPlayer.xhtml#ac431e96932f64d8d3dc23b08906a3bbb',1,'es::alrodmue::model::players::PowerForwardPlayer']]]
+  ['officiallocalmatch_0',['OfficialLocalMatch',['../classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialLocalMatch.xhtml#af35bf2833f37580e232631a7c1779900',1,'es::alrodmue::model::matches::OfficialLocalMatch']]],
+  ['officialvisitormatch_1',['OfficialVisitorMatch',['../classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialVisitorMatch.xhtml#a2a596c9bcec3331bec328a096e556bfe',1,'es::alrodmue::model::matches::OfficialVisitorMatch']]],
+  ['onacceptbuttonclick_2',['onAcceptButtonClick',['../classes_1_1alrodmue_1_1view_1_1AddMatchViewController.xhtml#af484d8fbe31480a95c9d300985fce32c',1,'es.alrodmue.view.AddMatchViewController.onAcceptButtonClick()'],['../classes_1_1alrodmue_1_1view_1_1AddPlayerViewController.xhtml#a9194dc8d302c529d039789001b272d94',1,'es.alrodmue.view.AddPlayerViewController.onAcceptButtonClick()']]],
+  ['onaddplayerbuttonclick_3',['onAddPlayerButtonClick',['../classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#ada56e3f885dd42b6061f9032d9c3c431',1,'es::alrodmue::view::MainViewController']]],
+  ['oncancelbuttonclick_4',['onCancelButtonClick',['../classes_1_1alrodmue_1_1view_1_1AddMatchViewController.xhtml#a3252bfda5278b0b9f0bcb628e2889a5b',1,'es.alrodmue.view.AddMatchViewController.onCancelButtonClick()'],['../classes_1_1alrodmue_1_1view_1_1AddPlayerViewController.xhtml#acb445c594b4c1a4914d47e9684551e63',1,'es.alrodmue.view.AddPlayerViewController.onCancelButtonClick()']]],
+  ['ondeleteplayerbuttonclick_5',['onDeletePlayerButtonClick',['../classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a0df6b342f9e0b4a14f7014ab895365ba',1,'es::alrodmue::view::MainViewController']]],
+  ['onlastmatchbuttonclick_6',['onLastMatchButtonClick',['../classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a431728f2d3c1dca6f49c1176b00005ec',1,'es::alrodmue::view::MainViewController']]],
+  ['onplayertypebuttonclick_7',['onPlayerTypeButtonClick',['../classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a042478bdebe2b418a1e33cc8a2404d8b',1,'es::alrodmue::view::MainViewController']]],
+  ['onplaymatchbuttonclick_8',['onPlayMatchButtonClick',['../classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a6df8eda1ed864fcf137e187cfee870c8',1,'es::alrodmue::view::MainViewController']]],
+  ['onviewmatchbuttonclick_9',['onViewMatchButtonClick',['../classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#adbbc0c59f7010ebbcbc2100f292a3d25',1,'es::alrodmue::view::MainViewController']]],
+  ['onviewplayerbuttonclick_10',['onViewPlayerButtonClick',['../classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a028c81a521a083af5934fe5e2d612f81',1,'es::alrodmue::view::MainViewController']]]
 ];

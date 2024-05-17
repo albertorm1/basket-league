@@ -46,9 +46,9 @@
 <text text-anchor="start" x="45.5" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">Initializable</text>
 <text text-anchor="start" x="72.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="72.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="40.5,-217.5 40.5,-217.5 108.5,-217.5 108.5,-217.5 40.5,-217.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="40.5,-202.5 40.5,-202.5 108.5,-202.5 108.5,-202.5 40.5,-202.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="40.5,-186 40.5,-235 108.5,-235 108.5,-186 40.5,-186"/>
+<polygon fill="#666666" stroke="#666666" points="40.5,-217.5 40.5,-217.5 108.5,-217.5 108.5,-217.5 40.5,-217.5"/>
+<polygon fill="#666666" stroke="#666666" points="40.5,-202.5 40.5,-202.5 108.5,-202.5 108.5,-202.5 40.5,-202.5"/>
+<polygon fill="none" stroke="#666666" points="40.5,-186 40.5,-235 108.5,-235 108.5,-186 40.5,-186"/>
 </a>
 </g>
 </g>

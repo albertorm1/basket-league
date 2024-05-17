@@ -34,9 +34,9 @@
 <text text-anchor="start" x="80" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="4" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="17" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">MatchInvalidDataException()</text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-128 0,-128 164,-128 164,-128 0,-128"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-113 0,-113 164,-113 164,-113 0,-113"/>
-<polygon fill="none" stroke="#bfbfbf" points="0,-96 0,-156 164,-156 164,-96 0,-96"/>
+<polygon fill="#666666" stroke="#666666" points="0,-128 0,-128 164,-128 164,-128 0,-128"/>
+<polygon fill="#666666" stroke="#666666" points="0,-113 0,-113 164,-113 164,-113 0,-113"/>
+<polygon fill="none" stroke="#666666" points="0,-96 0,-156 164,-156 164,-96 0,-96"/>
 </a>
 </g>
 </g>
@@ -57,9 +57,9 @@
 <text text-anchor="start" x="58" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">Exception</text>
 <text text-anchor="start" x="80.5" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="80.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="53,-223.5 53,-223.5 112,-223.5 112,-223.5 53,-223.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="53,-208.5 53,-208.5 112,-208.5 112,-208.5 53,-208.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="52.5,-192 52.5,-241 111.5,-241 111.5,-192 52.5,-192"/>
+<polygon fill="#666666" stroke="#666666" points="53,-223.5 53,-223.5 112,-223.5 112,-223.5 53,-223.5"/>
+<polygon fill="#666666" stroke="#666666" points="53,-208.5 53,-208.5 112,-208.5 112,-208.5 53,-208.5"/>
+<polygon fill="none" stroke="#666666" points="52.5,-192 52.5,-241 111.5,-241 111.5,-192 52.5,-192"/>
 </a>
 </g>
 </g>

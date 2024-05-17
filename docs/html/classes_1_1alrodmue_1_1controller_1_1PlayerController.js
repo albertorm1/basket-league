@@ -7,5 +7,6 @@ var classes_1_1alrodmue_1_1controller_1_1PlayerController =
     [ "showError", "classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#a53079eb6a240e50711a917ff0663682c", null ],
     [ "showInfo", "classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#a0d848334f324bc73821814c8e7705551", null ],
     [ "showPlayerDetails", "classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#a58626c864713aebb02228143abb9dda3", null ],
-    [ "showPlayerDetails", "classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#af837db34e77d7805da5ccaaedc9b20f8", null ]
+    [ "showPlayerDetails", "classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#af837db34e77d7805da5ccaaedc9b20f8", null ],
+    [ "instance", "classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#a9c8f984b36c956ba7663d2119660af5b", null ]
 ];

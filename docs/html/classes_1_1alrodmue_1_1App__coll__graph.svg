@@ -41,9 +41,9 @@
 <text text-anchor="start" x="5.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">Application</text>
 <text text-anchor="start" x="31" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="31" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0.5,-202.5 0.5,-202.5 65.5,-202.5 65.5,-202.5 0.5,-202.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0.5,-187.5 0.5,-187.5 65.5,-187.5 65.5,-187.5 0.5,-187.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="0,-171 0,-220 65,-220 65,-171 0,-171"/>
+<polygon fill="#666666" stroke="#666666" points="0.5,-202.5 0.5,-202.5 65.5,-202.5 65.5,-202.5 0.5,-202.5"/>
+<polygon fill="#666666" stroke="#666666" points="0.5,-187.5 0.5,-187.5 65.5,-187.5 65.5,-187.5 0.5,-187.5"/>
+<polygon fill="none" stroke="#666666" points="0,-171 0,-220 65,-220 65,-171 0,-171"/>
 </a>
 </g>
 </g>
@@ -64,9 +64,9 @@
 <text text-anchor="start" x="88.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">Scene</text>
 <text text-anchor="start" x="101.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="101.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="83.5,-202.5 83.5,-202.5 123.5,-202.5 123.5,-202.5 83.5,-202.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="83.5,-187.5 83.5,-187.5 123.5,-187.5 123.5,-187.5 83.5,-187.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="83.5,-171 83.5,-220 123.5,-220 123.5,-171 83.5,-171"/>
+<polygon fill="#666666" stroke="#666666" points="83.5,-202.5 83.5,-202.5 123.5,-202.5 123.5,-202.5 83.5,-202.5"/>
+<polygon fill="#666666" stroke="#666666" points="83.5,-187.5 83.5,-187.5 123.5,-187.5 123.5,-187.5 83.5,-187.5"/>
+<polygon fill="none" stroke="#666666" points="83.5,-171 83.5,-220 123.5,-220 123.5,-171 83.5,-171"/>
 </a>
 </g>
 </g>
@@ -88,9 +88,9 @@
 <text text-anchor="start" x="148.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">Stage</text>
 <text text-anchor="start" x="160.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="160.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="143.5,-202.5 143.5,-202.5 181.5,-202.5 181.5,-202.5 143.5,-202.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="143.5,-187.5 143.5,-187.5 181.5,-187.5 181.5,-187.5 143.5,-187.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="143.5,-171 143.5,-220 181.5,-220 181.5,-171 143.5,-171"/>
+<polygon fill="#666666" stroke="#666666" points="143.5,-202.5 143.5,-202.5 181.5,-202.5 181.5,-202.5 143.5,-202.5"/>
+<polygon fill="#666666" stroke="#666666" points="143.5,-187.5 143.5,-187.5 181.5,-187.5 181.5,-187.5 143.5,-187.5"/>
+<polygon fill="none" stroke="#666666" points="143.5,-171 143.5,-220 181.5,-220 181.5,-171 143.5,-171"/>
 </a>
 </g>
 </g>

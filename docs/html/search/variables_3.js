@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['fouls_0',['fouls',['../classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml#a428fb62b5f13389867e2860e2af3909f',1,'es.alrodmue.model.matches.Match.fouls'],['../classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a8f3f104242326218cffd80e453814a44',1,'es.alrodmue.model.players.Player.fouls']]]
+  ['date_0',['date',['../classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml#a7867e7b32811ebcb6af4fa750e5fac7c',1,'es::alrodmue::model::matches::Match']]],
+  ['deleteplayerbutton_1',['deletePlayerButton',['../classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a112373ca73219b848d193aab96a50622',1,'es::alrodmue::view::MainViewController']]]
 ];

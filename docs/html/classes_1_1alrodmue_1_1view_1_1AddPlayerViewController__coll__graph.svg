@@ -36,9 +36,9 @@
 <text text-anchor="start" x="5" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00">Initializable</text>
 <text text-anchor="start" x="32" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="32" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-179.5 0,-179.5 68,-179.5 68,-179.5 0,-179.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-164.5 0,-164.5 68,-164.5 68,-164.5 0,-164.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="0,-148 0,-197 68,-197 68,-148 0,-148"/>
+<polygon fill="#666666" stroke="#666666" points="0,-179.5 0,-179.5 68,-179.5 68,-179.5 0,-179.5"/>
+<polygon fill="#666666" stroke="#666666" points="0,-164.5 0,-164.5 68,-164.5 68,-164.5 0,-164.5"/>
+<polygon fill="none" stroke="#666666" points="0,-148 0,-197 68,-197 68,-148 0,-148"/>
 </a>
 </g>
 </g>
@@ -59,9 +59,9 @@
 <text text-anchor="start" x="91" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextField</text>
 <text text-anchor="start" x="111" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="111" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="86,-179.5 86,-179.5 140,-179.5 140,-179.5 86,-179.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="86,-164.5 86,-164.5 140,-164.5 140,-164.5 86,-164.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="86,-148 86,-197 140,-197 140,-148 86,-148"/>
+<polygon fill="#666666" stroke="#666666" points="86,-179.5 86,-179.5 140,-179.5 140,-179.5 86,-179.5"/>
+<polygon fill="#666666" stroke="#666666" points="86,-164.5 86,-164.5 140,-164.5 140,-164.5 86,-164.5"/>
+<polygon fill="none" stroke="#666666" points="86,-148 86,-197 140,-197 140,-148 86,-148"/>
 </a>
 </g>
 </g>
@@ -84,9 +84,9 @@
 <text text-anchor="start" x="192" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00">Slider</text>
 <text text-anchor="start" x="204" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="204" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="187,-179.5 187,-179.5 225,-179.5 225,-179.5 187,-179.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="187,-164.5 187,-164.5 225,-164.5 225,-164.5 187,-164.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="187,-148 187,-197 225,-197 225,-148 187,-148"/>
+<polygon fill="#666666" stroke="#666666" points="187,-179.5 187,-179.5 225,-179.5 225,-179.5 187,-179.5"/>
+<polygon fill="#666666" stroke="#666666" points="187,-164.5 187,-164.5 225,-164.5 225,-164.5 187,-164.5"/>
+<polygon fill="none" stroke="#666666" points="187,-148 187,-197 225,-197 225,-148 187,-148"/>
 </a>
 </g>
 </g>
@@ -108,9 +108,9 @@
 <text text-anchor="start" x="272" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00">Button</text>
 <text text-anchor="start" x="286.5" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="286.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="267,-179.5 267,-179.5 310,-179.5 310,-179.5 267,-179.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="267,-164.5 267,-164.5 310,-164.5 310,-164.5 267,-164.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="266.5,-148 266.5,-197 309.5,-197 309.5,-148 266.5,-148"/>
+<polygon fill="#666666" stroke="#666666" points="267,-179.5 267,-179.5 310,-179.5 310,-179.5 267,-179.5"/>
+<polygon fill="#666666" stroke="#666666" points="267,-164.5 267,-164.5 310,-164.5 310,-164.5 267,-164.5"/>
+<polygon fill="none" stroke="#666666" points="266.5,-148 266.5,-197 309.5,-197 309.5,-148 266.5,-148"/>
 </a>
 </g>
 </g>

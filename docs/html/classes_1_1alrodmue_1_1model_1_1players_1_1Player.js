@@ -17,5 +17,12 @@ var classes_1_1alrodmue_1_1model_1_1players_1_1Player =
     [ "isNameValid", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a957a1cee5507b34abed0ee8b4b51a4ac", null ],
     [ "isNumberValid", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a04896096307facfe3aff1a26d85c3589", null ],
     [ "isSkillValid", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a1fb4e881dd4d2085143e62a77039af95", null ],
-    [ "toString", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a08a8c2d8912c14418d5def153baa1cbf", null ]
+    [ "toString", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a08a8c2d8912c14418d5def153baa1cbf", null ],
+    [ "fouls", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a8f3f104242326218cffd80e453814a44", null ],
+    [ "height", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#afad6be7df46447fa7c949a5800d971be", null ],
+    [ "name", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#aa8d8e83c06fe439a967c500e432ce42f", null ],
+    [ "nextNumber", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a135b7af3200aac59b92f9f24c172b122", null ],
+    [ "number", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a9b8a99883d5304897718f7c7537c2bdd", null ],
+    [ "points", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#ae6efd7eed3d5564365a9b3d98958cd7e", null ],
+    [ "skill", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#aec64fa87019e0b300f31b5882faef15c", null ]
 ];

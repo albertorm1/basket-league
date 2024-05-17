@@ -1,0 +1,15 @@
+<map id="es.alrodmue.App.closeModal" name="es.alrodmue.App.closeModal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="613,109,824,134"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#acb71c6269a42789d433d96c23367f1bc" title=" " alt="" coords="331,5,544,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="677,105,564,60,525,48,526,43,566,55,679,100"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1view_1_1AddMatchViewController.xhtml#a3252bfda5278b0b9f0bcb628e2889a5b" title=" " alt="" coords="309,69,565,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="599,110,565,107,566,101,600,105"/>
+<area shape="rect" id="Node000005" href="$classes_1_1alrodmue_1_1view_1_1AddPlayerViewController.xhtml#acb445c594b4c1a4914d47e9684551e63" title=" " alt="" coords="309,133,565,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="600,137,566,141,565,136,599,132"/>
+<area shape="rect" id="Node000006" href="$classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#a42b9493f74fbd7a9a545daceae923762" title=" " alt="" coords="331,197,543,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="679,142,566,188,526,200,525,195,564,183,677,137"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1view_1_1AddPlayerViewController.xhtml#a9194dc8d302c529d039789001b272d94" title=" " alt="" coords="5,5,261,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="317,28,262,28,262,23,317,23"/>
+<area shape="rect" id="Node000007" href="$classes_1_1alrodmue_1_1view_1_1AddMatchViewController.xhtml#af484d8fbe31480a95c9d300985fce32c" title=" " alt="" coords="5,197,261,237"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="317,220,262,220,262,215,317,215"/>
+</map>

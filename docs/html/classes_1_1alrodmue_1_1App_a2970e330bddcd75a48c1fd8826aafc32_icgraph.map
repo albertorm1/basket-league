@@ -1,0 +1,13 @@
+<map id="es.alrodmue.App.loadFXML" name="es.alrodmue.App.loadFXML">
+<area shape="rect" id="Node000001" title=" " alt="" coords="560,55,760,80"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1App.xhtml#ab3c698531301e7bae1411e26b36618ec" title=" " alt="" coords="313,5,500,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="580,55,472,33,473,28,581,49"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1App.xhtml#a06da8f0bca62bc607ffebd411d442806" title=" " alt="" coords="301,55,512,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="546,70,512,70,512,65,546,65"/>
+<area shape="rect" id="Node000006" href="$classes_1_1alrodmue_1_1App.xhtml#aa09b7540fd10e9e161529fd5af9c3808" title=" " alt="" coords="323,104,490,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="581,85,473,107,472,101,580,80"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#ada56e3f885dd42b6061f9032d9c3c431" title=" " alt="" coords="6,15,253,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="287,56,252,52,253,47,288,51"/>
+<area shape="rect" id="Node000005" href="$classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a6df8eda1ed864fcf137e187cfee870c8" title=" " alt="" coords="5,79,253,119"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="288,84,254,88,253,82,287,78"/>
+</map>

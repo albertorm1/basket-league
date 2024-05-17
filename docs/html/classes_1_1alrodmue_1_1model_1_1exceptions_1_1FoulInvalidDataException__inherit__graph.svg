@@ -34,9 +34,9 @@
 <text text-anchor="start" x="80" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="19" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">FoulInvalidMatchException()</text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-32 0,-32 164,-32 164,-32 0,-32"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-17 0,-17 164,-17 164,-17 0,-17"/>
-<polygon fill="none" stroke="#bfbfbf" points="0,0 0,-60 164,-60 164,0 0,0"/>
+<polygon fill="#666666" stroke="#666666" points="0,-32 0,-32 164,-32 164,-32 0,-32"/>
+<polygon fill="#666666" stroke="#666666" points="0,-17 0,-17 164,-17 164,-17 0,-17"/>
+<polygon fill="none" stroke="#666666" points="0,0 0,-60 164,-60 164,0 0,0"/>
 </a>
 </g>
 </g>
@@ -59,9 +59,9 @@
 <text text-anchor="start" x="262" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="186.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="200" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">FoulInvalidPlayerException()</text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="182,-32 182,-32 346,-32 346,-32 182,-32"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="182,-17 182,-17 346,-17 346,-17 182,-17"/>
-<polygon fill="none" stroke="#bfbfbf" points="182,0 182,-60 346,-60 346,0 182,0"/>
+<polygon fill="#666666" stroke="#666666" points="182,-32 182,-32 346,-32 346,-32 182,-32"/>
+<polygon fill="#666666" stroke="#666666" points="182,-17 182,-17 346,-17 346,-17 182,-17"/>
+<polygon fill="none" stroke="#666666" points="182,0 182,-60 346,-60 346,0 182,0"/>
 </a>
 </g>
 </g>
@@ -82,9 +82,9 @@
 <text text-anchor="start" x="149" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">Exception</text>
 <text text-anchor="start" x="171.5" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="171.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="144,-223.5 144,-223.5 203,-223.5 203,-223.5 144,-223.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="144,-208.5 144,-208.5 203,-208.5 203,-208.5 144,-208.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="143.5,-192 143.5,-241 202.5,-241 202.5,-192 143.5,-192"/>
+<polygon fill="#666666" stroke="#666666" points="144,-223.5 144,-223.5 203,-223.5 203,-223.5 144,-223.5"/>
+<polygon fill="#666666" stroke="#666666" points="144,-208.5 144,-208.5 203,-208.5 203,-208.5 144,-208.5"/>
+<polygon fill="none" stroke="#666666" points="143.5,-192 143.5,-241 202.5,-241 202.5,-192 143.5,-192"/>
 </a>
 </g>
 </g>

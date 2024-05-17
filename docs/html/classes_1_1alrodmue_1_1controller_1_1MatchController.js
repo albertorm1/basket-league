@@ -6,5 +6,6 @@ var classes_1_1alrodmue_1_1controller_1_1MatchController =
     [ "showError", "classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#acabbacf0252370ef74ff8698035c2135", null ],
     [ "showInfo", "classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#a8445fd83e7a57496fe9ef21778263582", null ],
     [ "showMatchDetails", "classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#ae91a37357296af063d7527356130c011", null ],
-    [ "showMatchDetails", "classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#aa928db858776e0ac76ed1facdd8c84ee", null ]
+    [ "showMatchDetails", "classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#aa928db858776e0ac76ed1facdd8c84ee", null ],
+    [ "instance", "classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#a3d93554bddda9202db6bb5b5b4bbf7be", null ]
 ];

@@ -1,0 +1,11 @@
+<map id="es.alrodmue.model.matches.Match.getWinner" name="es.alrodmue.model.matches.Match.getWinner">
+<area shape="rect" id="Node000001" title=" " alt="" coords="829,37,1041,77"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml#a1b8769f3b150aed8261c2deb95fa8be7" title=" " alt="" coords="569,37,781,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="816,60,782,60,782,55,816,55"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#a42b9493f74fbd7a9a545daceae923762" title=" " alt="" coords="309,5,521,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="556,45,521,41,522,36,556,40"/>
+<area shape="rect" id="Node000005" href="$classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#aa928db858776e0ac76ed1facdd8c84ee" title=" " alt="" coords="309,69,521,109"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="556,75,522,79,521,74,556,69"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1view_1_1AddMatchViewController.xhtml#af484d8fbe31480a95c9d300985fce32c" title=" " alt="" coords="5,5,261,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="296,28,262,28,262,23,296,23"/>
+</map>

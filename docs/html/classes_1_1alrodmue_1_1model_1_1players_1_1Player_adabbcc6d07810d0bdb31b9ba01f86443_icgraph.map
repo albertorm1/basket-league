@@ -1,0 +1,7 @@
+<map id="es.alrodmue.model.players.Player.getType" name="es.alrodmue.model.players.Player.getType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="519,5,723,45"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#abea8b9786e37a26e5830519c4436cb45" title=" " alt="" coords="267,5,471,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="505,28,471,28,471,23,505,23"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#a58626c864713aebb02228143abb9dda3" title=" " alt="" coords="5,5,219,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="253,28,219,28,219,23,253,23"/>
+</map>

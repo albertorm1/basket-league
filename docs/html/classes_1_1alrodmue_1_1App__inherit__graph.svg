@@ -45,9 +45,9 @@
 <text text-anchor="start" x="19.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">Application</text>
 <text text-anchor="start" x="45" y="-196.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="45" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="14.5,-206.5 14.5,-206.5 79.5,-206.5 79.5,-206.5 14.5,-206.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="14.5,-191.5 14.5,-191.5 79.5,-191.5 79.5,-191.5 14.5,-191.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="14,-175 14,-224 79,-224 79,-175 14,-175"/>
+<polygon fill="#666666" stroke="#666666" points="14.5,-206.5 14.5,-206.5 79.5,-206.5 79.5,-206.5 14.5,-206.5"/>
+<polygon fill="#666666" stroke="#666666" points="14.5,-191.5 14.5,-191.5 79.5,-191.5 79.5,-191.5 14.5,-191.5"/>
+<polygon fill="none" stroke="#666666" points="14,-175 14,-224 79,-224 79,-175 14,-175"/>
 </a>
 </g>
 </g>

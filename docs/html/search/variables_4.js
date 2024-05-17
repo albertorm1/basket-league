@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['height_0',['height',['../classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#afad6be7df46447fa7c949a5800d971be',1,'es::alrodmue::model::players::Player']]]
+  ['exhibition_0',['EXHIBITION',['../enumes_1_1alrodmue_1_1model_1_1matches_1_1MatchType.xhtml#a1e8277988b1b6981868e24a69dca345b',1,'es::alrodmue::model::matches::MatchType']]]
 ];

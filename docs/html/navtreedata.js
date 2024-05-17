@@ -28,13 +28,24 @@ var NAVTREE =
     [ "Proyecto: Liga de baloncesto", "md_README.xhtml", [
       [ "Ejecución", "md_README.xhtml#autotoc_md1", null ]
     ] ],
+    [ "Paquetes", "namespaces.xhtml", [
+      [ "Lista de paquetes", "namespaces.xhtml", null ]
+    ] ],
     [ "Clases", "annotated.xhtml", [
       [ "Lista de clases", "annotated.xhtml", "annotated_dup" ],
       [ "Índice de clases", "classes.xhtml", null ],
       [ "Jerarquía de clases", "hierarchy.xhtml", "hierarchy" ],
       [ "Miembros de clases", "functions.xhtml", [
         [ "Todos", "functions.xhtml", null ],
-        [ "Funciones", "functions_func.xhtml", null ]
+        [ "Funciones", "functions_func.xhtml", null ],
+        [ "Variables", "functions_vars.xhtml", null ]
+      ] ]
+    ] ],
+    [ "Archivos", "files.xhtml", [
+      [ "Lista de archivos", "files.xhtml", "files_dup" ],
+      [ "Miembros de los archivos", "globals.xhtml", [
+        [ "Todos", "globals.xhtml", null ],
+        [ "Variables", "globals_vars.xhtml", null ]
       ] ]
     ] ]
   ] ]
@@ -42,7 +53,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.xhtml"
+"AddMatchViewController_8java.xhtml",
+"classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a9f43c3acb4ccd40be16fd94fe1dfcb07"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

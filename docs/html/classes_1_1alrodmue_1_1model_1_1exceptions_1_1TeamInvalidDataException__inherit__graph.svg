@@ -34,9 +34,9 @@
 <text text-anchor="start" x="83" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="4.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="17.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">TeamPlayerListFullException()</text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0.5,-32 0.5,-32 169.5,-32 169.5,-32 0.5,-32"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0.5,-17 0.5,-17 169.5,-17 169.5,-17 0.5,-17"/>
-<polygon fill="none" stroke="#bfbfbf" points="0,0 0,-60 169,-60 169,0 0,0"/>
+<polygon fill="#666666" stroke="#666666" points="0.5,-32 0.5,-32 169.5,-32 169.5,-32 0.5,-32"/>
+<polygon fill="#666666" stroke="#666666" points="0.5,-17 0.5,-17 169.5,-17 169.5,-17 0.5,-17"/>
+<polygon fill="none" stroke="#666666" points="0,0 0,-60 169,-60 169,0 0,0"/>
 </a>
 </g>
 </g>
@@ -59,9 +59,9 @@
 <text text-anchor="start" x="280.5" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="191.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="204.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">TeamPlayerPositionFullException()</text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="187.5,-32 187.5,-32 377.5,-32 377.5,-32 187.5,-32"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="187.5,-17 187.5,-17 377.5,-17 377.5,-17 187.5,-17"/>
-<polygon fill="none" stroke="#bfbfbf" points="187.5,0 187.5,-60 377.5,-60 377.5,0 187.5,0"/>
+<polygon fill="#666666" stroke="#666666" points="187.5,-32 187.5,-32 377.5,-32 377.5,-32 187.5,-32"/>
+<polygon fill="#666666" stroke="#666666" points="187.5,-17 187.5,-17 377.5,-17 377.5,-17 187.5,-17"/>
+<polygon fill="none" stroke="#666666" points="187.5,0 187.5,-60 377.5,-60 377.5,0 187.5,0"/>
 </a>
 </g>
 </g>
@@ -82,9 +82,9 @@
 <text text-anchor="start" x="159.5" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">Exception</text>
 <text text-anchor="start" x="182" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="182" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="154.5,-223.5 154.5,-223.5 213.5,-223.5 213.5,-223.5 154.5,-223.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="154.5,-208.5 154.5,-208.5 213.5,-208.5 213.5,-208.5 154.5,-208.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="154,-192 154,-241 213,-241 213,-192 154,-192"/>
+<polygon fill="#666666" stroke="#666666" points="154.5,-223.5 154.5,-223.5 213.5,-223.5 213.5,-223.5 154.5,-223.5"/>
+<polygon fill="#666666" stroke="#666666" points="154.5,-208.5 154.5,-208.5 213.5,-208.5 213.5,-208.5 154.5,-208.5"/>
+<polygon fill="none" stroke="#666666" points="154,-192 154,-241 213,-241 213,-192 154,-192"/>
 </a>
 </g>
 </g>

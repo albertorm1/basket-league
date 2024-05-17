@@ -1,0 +1,11 @@
+<map id="es.alrodmue.controller.PlayerController.getInstance" name="es.alrodmue.controller.PlayerController.getInstance">
+<area shape="rect" id="Node000001" title=" " alt="" coords="317,101,531,141"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1view_1_1AddPlayerViewController.xhtml#a9194dc8d302c529d039789001b272d94" title=" " alt="" coords="9,5,265,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="366,98,268,60,228,48,229,43,270,55,368,93"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a0df6b342f9e0b4a14f7014ab895365ba" title=" " alt="" coords="5,69,269,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="304,111,269,107,270,101,304,105"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a042478bdebe2b418a1e33cc8a2404d8b" title=" " alt="" coords="12,133,263,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="304,137,263,142,263,137,304,132"/>
+<area shape="rect" id="Node000005" href="$classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a028c81a521a083af5934fe5e2d612f81" title=" " alt="" coords="11,197,264,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="368,149,270,188,229,200,228,195,268,183,366,144"/>
+</map>

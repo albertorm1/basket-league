@@ -46,9 +46,9 @@
 <text text-anchor="start" x="5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">Initializable</text>
 <text text-anchor="start" x="32" y="-352" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="32" y="-337" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-362 0,-362 68,-362 68,-362 0,-362"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-347 0,-347 68,-347 68,-347 0,-347"/>
-<polygon fill="none" stroke="#bfbfbf" points="0,-330.5 0,-379.5 68,-379.5 68,-330.5 0,-330.5"/>
+<polygon fill="#666666" stroke="#666666" points="0,-362 0,-362 68,-362 68,-362 0,-362"/>
+<polygon fill="#666666" stroke="#666666" points="0,-347 0,-347 68,-347 68,-347 0,-347"/>
+<polygon fill="none" stroke="#666666" points="0,-330.5 0,-379.5 68,-379.5 68,-330.5 0,-330.5"/>
 </a>
 </g>
 </g>
@@ -70,9 +70,9 @@
 <text text-anchor="start" x="168.5" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">Player &gt;</text>
 <text text-anchor="start" x="188" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="188" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="86,-357 86,-357 294,-357 294,-357 86,-357"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="86,-342 86,-342 294,-342 294,-342 86,-342"/>
-<polygon fill="none" stroke="#bfbfbf" points="86,-325 86,-385 294,-385 294,-325 86,-325"/>
+<polygon fill="#666666" stroke="#666666" points="86,-357 86,-357 294,-357 294,-357 86,-357"/>
+<polygon fill="#666666" stroke="#666666" points="86,-342 86,-342 294,-342 294,-342 86,-342"/>
+<polygon fill="none" stroke="#666666" points="86,-325 86,-385 294,-385 294,-325 86,-325"/>
 </a>
 </g>
 </g>
@@ -94,9 +94,9 @@
 <text text-anchor="start" x="257" y="-554" font-family="Helvetica,sans-Serif" font-size="10.00">TableView</text>
 <text text-anchor="start" x="280" y="-539" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="280" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="252,-549 252,-549 312,-549 312,-549 252,-549"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="252,-534 252,-534 312,-534 312,-534 252,-534"/>
-<polygon fill="none" stroke="#bfbfbf" points="252,-517.5 252,-566.5 312,-566.5 312,-517.5 252,-517.5"/>
+<polygon fill="#666666" stroke="#666666" points="252,-549 252,-549 312,-549 312,-549 252,-549"/>
+<polygon fill="#666666" stroke="#666666" points="252,-534 252,-534 312,-534 312,-534 252,-534"/>
+<polygon fill="none" stroke="#666666" points="252,-517.5 252,-566.5 312,-566.5 312,-517.5 252,-517.5"/>
 </a>
 </g>
 </g>
@@ -120,9 +120,9 @@
 <text text-anchor="start" x="398" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">Match &gt;</text>
 <text text-anchor="start" x="417" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="417" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="312,-357 312,-357 526,-357 526,-357 312,-357"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="312,-342 312,-342 526,-342 526,-342 312,-342"/>
-<polygon fill="none" stroke="#bfbfbf" points="312,-325 312,-385 526,-385 526,-325 312,-325"/>
+<polygon fill="#666666" stroke="#666666" points="312,-357 312,-357 526,-357 526,-357 312,-357"/>
+<polygon fill="#666666" stroke="#666666" points="312,-342 312,-342 526,-342 526,-342 312,-342"/>
+<polygon fill="none" stroke="#666666" points="312,-325 312,-385 526,-385 526,-325 312,-325"/>
 </a>
 </g>
 </g>
@@ -146,9 +146,9 @@
 <text text-anchor="start" x="616" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">Player, String &gt;</text>
 <text text-anchor="start" x="652.5" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="652.5" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="544,-357 544,-357 765,-357 765,-357 544,-357"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="544,-342 544,-342 765,-342 765,-342 544,-342"/>
-<polygon fill="none" stroke="#bfbfbf" points="543.5,-325 543.5,-385 764.5,-385 764.5,-325 543.5,-325"/>
+<polygon fill="#666666" stroke="#666666" points="544,-357 544,-357 765,-357 765,-357 544,-357"/>
+<polygon fill="#666666" stroke="#666666" points="544,-342 544,-342 765,-342 765,-342 544,-342"/>
+<polygon fill="none" stroke="#666666" points="543.5,-325 543.5,-385 764.5,-385 764.5,-325 543.5,-325"/>
 </a>
 </g>
 </g>
@@ -170,9 +170,9 @@
 <text text-anchor="start" x="1128" y="-554" font-family="Helvetica,sans-Serif" font-size="10.00">TableColumn</text>
 <text text-anchor="start" x="1158" y="-539" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="1158" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1123,-549 1123,-549 1197,-549 1197,-549 1123,-549"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1123,-534 1123,-534 1197,-534 1197,-534 1123,-534"/>
-<polygon fill="none" stroke="#bfbfbf" points="1123,-517.5 1123,-566.5 1197,-566.5 1197,-517.5 1123,-517.5"/>
+<polygon fill="#666666" stroke="#666666" points="1123,-549 1123,-549 1197,-549 1197,-549 1123,-549"/>
+<polygon fill="#666666" stroke="#666666" points="1123,-534 1123,-534 1197,-534 1197,-534 1123,-534"/>
+<polygon fill="none" stroke="#666666" points="1123,-517.5 1123,-566.5 1197,-566.5 1197,-517.5 1123,-517.5"/>
 </a>
 </g>
 </g>
@@ -196,9 +196,9 @@
 <text text-anchor="start" x="788" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">Player, es.alrodmue.model.players.PlayerType &gt;</text>
 <text text-anchor="start" x="905" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="905" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="783,-357 783,-357 1031,-357 1031,-357 783,-357"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="783,-342 783,-342 1031,-342 1031,-342 783,-342"/>
-<polygon fill="none" stroke="#bfbfbf" points="783,-325 783,-385 1031,-385 1031,-325 783,-325"/>
+<polygon fill="#666666" stroke="#666666" points="783,-357 783,-357 1031,-357 1031,-357 783,-357"/>
+<polygon fill="#666666" stroke="#666666" points="783,-342 783,-342 1031,-342 1031,-342 783,-342"/>
+<polygon fill="none" stroke="#666666" points="783,-325 783,-385 1031,-385 1031,-325 783,-325"/>
 </a>
 </g>
 </g>
@@ -224,9 +224,9 @@
 <text text-anchor="start" x="1119" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">Player, Integer &gt;</text>
 <text text-anchor="start" x="1158.5" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="1158.5" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1050,-357 1050,-357 1271,-357 1271,-357 1050,-357"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1050,-342 1050,-342 1271,-342 1271,-342 1050,-342"/>
-<polygon fill="none" stroke="#bfbfbf" points="1049.5,-325 1049.5,-385 1270.5,-385 1270.5,-325 1049.5,-325"/>
+<polygon fill="#666666" stroke="#666666" points="1050,-357 1050,-357 1271,-357 1271,-357 1050,-357"/>
+<polygon fill="#666666" stroke="#666666" points="1050,-342 1050,-342 1271,-342 1271,-342 1050,-342"/>
+<polygon fill="none" stroke="#666666" points="1049.5,-325 1049.5,-385 1270.5,-385 1270.5,-325 1049.5,-325"/>
 </a>
 </g>
 </g>
@@ -250,9 +250,9 @@
 <text text-anchor="start" x="1354" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">Match, LocalDate &gt;</text>
 <text text-anchor="start" x="1400.5" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="1400.5" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1289,-357 1289,-357 1516,-357 1516,-357 1289,-357"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1289,-342 1289,-342 1516,-342 1516,-342 1289,-342"/>
-<polygon fill="none" stroke="#bfbfbf" points="1288.5,-325 1288.5,-385 1515.5,-385 1515.5,-325 1288.5,-325"/>
+<polygon fill="#666666" stroke="#666666" points="1289,-357 1289,-357 1516,-357 1516,-357 1289,-357"/>
+<polygon fill="#666666" stroke="#666666" points="1289,-342 1289,-342 1516,-342 1516,-342 1289,-342"/>
+<polygon fill="none" stroke="#666666" points="1288.5,-325 1288.5,-385 1515.5,-385 1515.5,-325 1288.5,-325"/>
 </a>
 </g>
 </g>
@@ -276,9 +276,9 @@
 <text text-anchor="start" x="1609.5" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">Match, String &gt;</text>
 <text text-anchor="start" x="1645.5" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="1645.5" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1534,-357 1534,-357 1761,-357 1761,-357 1534,-357"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1534,-342 1534,-342 1761,-342 1761,-342 1534,-342"/>
-<polygon fill="none" stroke="#bfbfbf" points="1533.5,-325 1533.5,-385 1760.5,-385 1760.5,-325 1533.5,-325"/>
+<polygon fill="#666666" stroke="#666666" points="1534,-357 1534,-357 1761,-357 1761,-357 1534,-357"/>
+<polygon fill="#666666" stroke="#666666" points="1534,-342 1534,-342 1761,-342 1761,-342 1534,-342"/>
+<polygon fill="none" stroke="#666666" points="1533.5,-325 1533.5,-385 1760.5,-385 1760.5,-325 1533.5,-325"/>
 </a>
 </g>
 </g>
@@ -353,9 +353,9 @@
 <text text-anchor="start" x="1851.5" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerType &gt;</text>
 <text text-anchor="start" x="1882" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="1882" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1779,-357 1779,-357 1989,-357 1989,-357 1779,-357"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1779,-342 1779,-342 1989,-342 1989,-342 1779,-342"/>
-<polygon fill="none" stroke="#bfbfbf" points="1779,-325 1779,-385 1989,-385 1989,-325 1779,-325"/>
+<polygon fill="#666666" stroke="#666666" points="1779,-357 1779,-357 1989,-357 1989,-357 1779,-357"/>
+<polygon fill="#666666" stroke="#666666" points="1779,-342 1779,-342 1989,-342 1989,-342 1779,-342"/>
+<polygon fill="none" stroke="#666666" points="1779,-325 1779,-385 1989,-385 1989,-325 1779,-325"/>
 </a>
 </g>
 </g>
@@ -377,9 +377,9 @@
 <text text-anchor="start" x="1858" y="-554" font-family="Helvetica,sans-Serif" font-size="10.00">ChoiceBox</text>
 <text text-anchor="start" x="1882" y="-539" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="1882" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1853,-549 1853,-549 1915,-549 1915,-549 1853,-549"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1853,-534 1853,-534 1915,-534 1915,-534 1853,-534"/>
-<polygon fill="none" stroke="#bfbfbf" points="1853,-517.5 1853,-566.5 1915,-566.5 1915,-517.5 1853,-517.5"/>
+<polygon fill="#666666" stroke="#666666" points="1853,-549 1853,-549 1915,-549 1915,-549 1853,-549"/>
+<polygon fill="#666666" stroke="#666666" points="1853,-534 1853,-534 1915,-534 1915,-534 1853,-534"/>
+<polygon fill="none" stroke="#666666" points="1853,-517.5 1853,-566.5 1915,-566.5 1915,-517.5 1853,-517.5"/>
 </a>
 </g>
 </g>
@@ -402,9 +402,9 @@
 <text text-anchor="start" x="2013" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">Button</text>
 <text text-anchor="start" x="2027.5" y="-352" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="2027.5" y="-337" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="2008,-362 2008,-362 2051,-362 2051,-362 2008,-362"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="2008,-347 2008,-347 2051,-347 2051,-347 2008,-347"/>
-<polygon fill="none" stroke="#bfbfbf" points="2007.5,-330.5 2007.5,-379.5 2050.5,-379.5 2050.5,-330.5 2007.5,-330.5"/>
+<polygon fill="#666666" stroke="#666666" points="2008,-362 2008,-362 2051,-362 2051,-362 2008,-362"/>
+<polygon fill="#666666" stroke="#666666" points="2008,-347 2008,-347 2051,-347 2051,-347 2008,-347"/>
+<polygon fill="none" stroke="#666666" points="2007.5,-330.5 2007.5,-379.5 2050.5,-379.5 2050.5,-330.5 2007.5,-330.5"/>
 </a>
 </g>
 </g>
@@ -482,9 +482,9 @@
 <text text-anchor="start" x="2090" y="-549" font-family="Helvetica,sans-Serif" font-size="10.00">Player &gt;</text>
 <text text-anchor="start" x="2109.5" y="-534" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="2109.5" y="-519" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1996,-544 1996,-544 2227,-544 2227,-544 1996,-544"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="1996,-529 1996,-529 2227,-529 2227,-529 1996,-529"/>
-<polygon fill="none" stroke="#bfbfbf" points="1995.5,-512 1995.5,-572 2226.5,-572 2226.5,-512 1995.5,-512"/>
+<polygon fill="#666666" stroke="#666666" points="1996,-544 1996,-544 2227,-544 2227,-544 1996,-544"/>
+<polygon fill="#666666" stroke="#666666" points="1996,-529 1996,-529 2227,-529 2227,-529 1996,-529"/>
+<polygon fill="none" stroke="#666666" points="1995.5,-512 1995.5,-572 2226.5,-572 2226.5,-512 1995.5,-512"/>
 </a>
 </g>
 </g>
@@ -516,9 +516,9 @@
 <text text-anchor="start" x="2201" y="-666.5" font-family="Helvetica,sans-Serif" font-size="10.00">ObservableList</text>
 <text text-anchor="start" x="2235.5" y="-651.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="2235.5" y="-636.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="2196,-661.5 2196,-661.5 2279,-661.5 2279,-661.5 2196,-661.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="2196,-646.5 2196,-646.5 2279,-646.5 2279,-646.5 2196,-646.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="2195.5,-630 2195.5,-679 2278.5,-679 2278.5,-630 2195.5,-630"/>
+<polygon fill="#666666" stroke="#666666" points="2196,-661.5 2196,-661.5 2279,-661.5 2279,-661.5 2196,-661.5"/>
+<polygon fill="#666666" stroke="#666666" points="2196,-646.5 2196,-646.5 2279,-646.5 2279,-646.5 2196,-646.5"/>
+<polygon fill="none" stroke="#666666" points="2195.5,-630 2195.5,-679 2278.5,-679 2278.5,-630 2195.5,-630"/>
 </a>
 </g>
 </g>
@@ -542,9 +542,9 @@
 <text text-anchor="start" x="2342.5" y="-549" font-family="Helvetica,sans-Serif" font-size="10.00">Match &gt;</text>
 <text text-anchor="start" x="2361.5" y="-534" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="2361.5" y="-519" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="2245,-544 2245,-544 2482,-544 2482,-544 2245,-544"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="2245,-529 2245,-529 2482,-529 2482,-529 2245,-529"/>
-<polygon fill="none" stroke="#bfbfbf" points="2244.5,-512 2244.5,-572 2481.5,-572 2481.5,-512 2244.5,-512"/>
+<polygon fill="#666666" stroke="#666666" points="2245,-544 2245,-544 2482,-544 2482,-544 2245,-544"/>
+<polygon fill="#666666" stroke="#666666" points="2245,-529 2245,-529 2482,-529 2482,-529 2245,-529"/>
+<polygon fill="none" stroke="#666666" points="2244.5,-512 2244.5,-572 2481.5,-572 2481.5,-512 2244.5,-512"/>
 </a>
 </g>
 </g>
@@ -625,9 +625,9 @@
 <text text-anchor="start" x="2530" y="-554" font-family="Helvetica,sans-Serif" font-size="10.00">String</text>
 <text text-anchor="start" x="2542.5" y="-539" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="2542.5" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="2525,-549 2525,-549 2564,-549 2564,-549 2525,-549"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="2525,-534 2525,-534 2564,-534 2564,-534 2525,-534"/>
-<polygon fill="none" stroke="#bfbfbf" points="2524.5,-517.5 2524.5,-566.5 2563.5,-566.5 2563.5,-517.5 2524.5,-517.5"/>
+<polygon fill="#666666" stroke="#666666" points="2525,-549 2525,-549 2564,-549 2564,-549 2525,-549"/>
+<polygon fill="#666666" stroke="#666666" points="2525,-534 2525,-534 2564,-534 2564,-534 2525,-534"/>
+<polygon fill="none" stroke="#666666" points="2524.5,-517.5 2524.5,-566.5 2563.5,-566.5 2563.5,-517.5 2524.5,-517.5"/>
 </a>
 </g>
 </g>

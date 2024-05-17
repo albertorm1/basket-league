@@ -36,9 +36,9 @@
 <text text-anchor="start" x="5" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00">Initializable</text>
 <text text-anchor="start" x="32" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="32" y="-160" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-185 0,-185 68,-185 68,-185 0,-185"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0,-170 0,-170 68,-170 68,-170 0,-170"/>
-<polygon fill="none" stroke="#bfbfbf" points="0,-153.5 0,-202.5 68,-202.5 68,-153.5 0,-153.5"/>
+<polygon fill="#666666" stroke="#666666" points="0,-185 0,-185 68,-185 68,-185 0,-185"/>
+<polygon fill="#666666" stroke="#666666" points="0,-170 0,-170 68,-170 68,-170 0,-170"/>
+<polygon fill="none" stroke="#666666" points="0,-153.5 0,-202.5 68,-202.5 68,-153.5 0,-153.5"/>
 </a>
 </g>
 </g>
@@ -60,9 +60,9 @@
 <text text-anchor="start" x="162" y="-185" font-family="Helvetica,sans-Serif" font-size="10.00">MatchType &gt;</text>
 <text text-anchor="start" x="192" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="192" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="86,-180 86,-180 302,-180 302,-180 86,-180"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="86,-165 86,-165 302,-165 302,-165 86,-165"/>
-<polygon fill="none" stroke="#bfbfbf" points="86,-148 86,-208 302,-208 302,-148 86,-148"/>
+<polygon fill="#666666" stroke="#666666" points="86,-180 86,-180 302,-180 302,-180 86,-180"/>
+<polygon fill="#666666" stroke="#666666" points="86,-165 86,-165 302,-165 302,-165 86,-165"/>
+<polygon fill="none" stroke="#666666" points="86,-148 86,-208 302,-208 302,-148 86,-148"/>
 </a>
 </g>
 </g>
@@ -84,9 +84,9 @@
 <text text-anchor="start" x="168" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChoiceBox</text>
 <text text-anchor="start" x="192" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="192" y="-272.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="163,-297.5 163,-297.5 225,-297.5 225,-297.5 163,-297.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="163,-282.5 163,-282.5 225,-282.5 225,-282.5 163,-282.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="163,-266 163,-315 225,-315 225,-266 163,-266"/>
+<polygon fill="#666666" stroke="#666666" points="163,-297.5 163,-297.5 225,-297.5 225,-297.5 163,-297.5"/>
+<polygon fill="#666666" stroke="#666666" points="163,-282.5 163,-282.5 225,-282.5 225,-282.5 163,-282.5"/>
+<polygon fill="none" stroke="#666666" points="163,-266 163,-315 225,-315 225,-266 163,-266"/>
 </a>
 </g>
 </g>
@@ -109,9 +109,9 @@
 <text text-anchor="start" x="326" y="-190" font-family="Helvetica,sans-Serif" font-size="10.00">Button</text>
 <text text-anchor="start" x="340.5" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="340.5" y="-160" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="321,-185 321,-185 364,-185 364,-185 321,-185"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="321,-170 321,-170 364,-170 364,-170 321,-170"/>
-<polygon fill="none" stroke="#bfbfbf" points="320.5,-153.5 320.5,-202.5 363.5,-202.5 363.5,-153.5 320.5,-153.5"/>
+<polygon fill="#666666" stroke="#666666" points="321,-185 321,-185 364,-185 364,-185 321,-185"/>
+<polygon fill="#666666" stroke="#666666" points="321,-170 321,-170 364,-170 364,-170 321,-170"/>
+<polygon fill="none" stroke="#666666" points="320.5,-153.5 320.5,-202.5 363.5,-202.5 363.5,-153.5 320.5,-153.5"/>
 </a>
 </g>
 </g>

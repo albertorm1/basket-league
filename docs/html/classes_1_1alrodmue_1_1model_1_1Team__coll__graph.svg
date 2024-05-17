@@ -95,9 +95,9 @@
 <text text-anchor="start" x="94.5" y="-439" font-family="Helvetica,sans-Serif" font-size="10.00">Player &gt;</text>
 <text text-anchor="start" x="114" y="-424" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="114" y="-409" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0.5,-434 0.5,-434 231.5,-434 231.5,-434 0.5,-434"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="0.5,-419 0.5,-419 231.5,-419 231.5,-419 0.5,-419"/>
-<polygon fill="none" stroke="#bfbfbf" points="0,-402 0,-462 231,-462 231,-402 0,-402"/>
+<polygon fill="#666666" stroke="#666666" points="0.5,-434 0.5,-434 231.5,-434 231.5,-434 0.5,-434"/>
+<polygon fill="#666666" stroke="#666666" points="0.5,-419 0.5,-419 231.5,-419 231.5,-419 0.5,-419"/>
+<polygon fill="none" stroke="#666666" points="0,-402 0,-462 231,-462 231,-402 0,-402"/>
 </a>
 </g>
 </g>
@@ -129,9 +129,9 @@
 <text text-anchor="start" x="205.5" y="-556.5" font-family="Helvetica,sans-Serif" font-size="10.00">ObservableList</text>
 <text text-anchor="start" x="240" y="-541.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="240" y="-526.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="200.5,-551.5 200.5,-551.5 283.5,-551.5 283.5,-551.5 200.5,-551.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="200.5,-536.5 200.5,-536.5 283.5,-536.5 283.5,-536.5 200.5,-536.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="200,-520 200,-569 283,-569 283,-520 200,-520"/>
+<polygon fill="#666666" stroke="#666666" points="200.5,-551.5 200.5,-551.5 283.5,-551.5 283.5,-551.5 200.5,-551.5"/>
+<polygon fill="#666666" stroke="#666666" points="200.5,-536.5 200.5,-536.5 283.5,-536.5 283.5,-536.5 200.5,-536.5"/>
+<polygon fill="none" stroke="#666666" points="200,-520 200,-569 283,-569 283,-520 200,-520"/>
 </a>
 </g>
 </g>
@@ -155,9 +155,9 @@
 <text text-anchor="start" x="347" y="-439" font-family="Helvetica,sans-Serif" font-size="10.00">Match &gt;</text>
 <text text-anchor="start" x="366" y="-424" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="366" y="-409" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="249.5,-434 249.5,-434 486.5,-434 486.5,-434 249.5,-434"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="249.5,-419 249.5,-419 486.5,-419 486.5,-419 249.5,-419"/>
-<polygon fill="none" stroke="#bfbfbf" points="249,-402 249,-462 486,-462 486,-402 249,-402"/>
+<polygon fill="#666666" stroke="#666666" points="249.5,-434 249.5,-434 486.5,-434 486.5,-434 249.5,-434"/>
+<polygon fill="#666666" stroke="#666666" points="249.5,-419 249.5,-419 486.5,-419 486.5,-419 249.5,-419"/>
+<polygon fill="none" stroke="#666666" points="249,-402 249,-462 486,-462 486,-402 249,-402"/>
 </a>
 </g>
 </g>

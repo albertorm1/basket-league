@@ -32,9 +32,9 @@
 <text text-anchor="start" x="58" y="-132.5" font-family="Helvetica,sans-Serif" font-size="10.00">Exception</text>
 <text text-anchor="start" x="80.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="80.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="53,-127.5 53,-127.5 112,-127.5 112,-127.5 53,-127.5"/>
-<polygon fill="#bfbfbf" stroke="#bfbfbf" points="53,-112.5 53,-112.5 112,-112.5 112,-112.5 53,-112.5"/>
-<polygon fill="none" stroke="#bfbfbf" points="52.5,-96 52.5,-145 111.5,-145 111.5,-96 52.5,-96"/>
+<polygon fill="#666666" stroke="#666666" points="53,-127.5 53,-127.5 112,-127.5 112,-127.5 53,-127.5"/>
+<polygon fill="#666666" stroke="#666666" points="53,-112.5 53,-112.5 112,-112.5 112,-112.5 53,-112.5"/>
+<polygon fill="none" stroke="#666666" points="52.5,-96 52.5,-145 111.5,-145 111.5,-96 52.5,-96"/>
 </a>
 </g>
 </g>

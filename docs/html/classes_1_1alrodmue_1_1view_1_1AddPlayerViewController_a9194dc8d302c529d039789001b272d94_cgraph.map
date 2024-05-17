@@ -1,0 +1,25 @@
+<map id="es.alrodmue.view.AddPlayerViewController.onAcceptButtonClick" name="es.alrodmue.view.AddPlayerViewController.onAcceptButtonClick">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,280,261,320"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#acb71c6269a42789d433d96c23367f1bc" title=" " alt="" coords="309,184,523,224"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,277,342,226,344,231,194,283"/>
+<area shape="rect" id="Node000011" href="$classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#a38a2929c0918e63bd49bcd1922dbc120" title=" " alt="" coords="309,312,523,352"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="262,312,296,316,295,321,261,317"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1Team.xhtml#a5e4f41c785c74d800af1c5e4e6f3885e" title=" " alt="" coords="571,5,785,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,182,488,120,526,85,569,55,582,48,584,53,572,60,530,89,491,123,435,186"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1App.xhtml#a2d1fc08b3be857d074130a197f2bc7ab" title=" " alt="" coords="573,70,783,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="442,182,499,143,570,106,595,97,596,102,572,110,502,148,445,186"/>
+<area shape="rect" id="Node000005" href="$classes_1_1alrodmue_1_1model_1_1factories_1_1PlayerFactory.xhtml#aecc91ec27700c05282c7d1f394c28382" title=" " alt="" coords="571,120,785,160"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="498,181,582,161,583,166,499,187"/>
+<area shape="rect" id="Node000006" href="$classes_1_1alrodmue_1_1model_1_1factories_1_1PlayerFactory.xhtml#a2c5498aa9c78b26e98b4aaad9935894f" title=" " alt="" coords="571,184,785,224"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="523,201,558,201,558,207,523,207"/>
+<area shape="rect" id="Node000008" href="$classes_1_1alrodmue_1_1model_1_1Team.xhtml#a7301e45c0f5b85a4d03cd04e758cd97d" title=" " alt="" coords="572,248,784,288"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="499,221,583,242,582,247,498,227"/>
+<area shape="rect" id="Node000010" href="$classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#a53079eb6a240e50711a917ff0663682c" title=" " alt="" coords="571,312,785,352"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="446,222,502,260,572,298,589,305,587,310,570,302,500,264,443,226"/>
+<area shape="rect" id="Node000007" href="$classes_1_1alrodmue_1_1model_1_1factories_1_1PlayerFactory.xhtml#aa90466601c77d1dc541e04729d19146f" title=" " alt="" coords="840,184,1053,224"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="785,201,826,201,826,207,785,207"/>
+<area shape="rect" id="Node000009" href="$classes_1_1alrodmue_1_1model_1_1Team.xhtml#ae04883a5648158af96bd5f695f924359" title=" " alt="" coords="833,255,1060,281"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="784,265,820,265,820,271,784,271"/>
+<area shape="rect" id="Node000012" href="$classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml#a7d662190dc70153a9fdb9f3b18830a4f" title=" " alt="" coords="571,376,785,416"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="499,349,583,370,582,375,498,355"/>
+</map>
