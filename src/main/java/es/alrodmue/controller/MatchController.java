@@ -104,7 +104,7 @@ public class MatchController {
     public void showMatchDetails() {
         Team team = Team.getInstance();
         ObservableList<Match> matchList = team.getMatchList(); 
-        Match match = matchList.get(matchList.size());
+        Match match = matchList.get(matchList.size() - 1);
         this.showMatchDetails(match);
     }
 
