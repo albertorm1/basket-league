@@ -35,7 +35,7 @@ public class PointGuardPlayer extends Player {
      * @returns String con el tipo del jugador.
      */
     @Override
-    public String getType() {
-        return "Base";
+    public PlayerType getType() {
+        return PlayerType.POINT_GUARD;
     }
 }

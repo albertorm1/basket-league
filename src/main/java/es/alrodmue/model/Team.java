@@ -6,6 +6,7 @@ import es.alrodmue.model.exceptions.TeamPlayerPositionFullException;
 import es.alrodmue.model.matches.Match;
 import es.alrodmue.model.players.CenterPlayer;
 import es.alrodmue.model.players.Player;
+import es.alrodmue.model.players.PlayerType;
 import es.alrodmue.model.players.PointGuardPlayer;
 import es.alrodmue.model.players.PowerForwardPlayer;
 import es.alrodmue.model.players.ShootingGuardPlayer;
@@ -85,20 +86,20 @@ public class Team {
      * @params Tipo de jugador a obtener.
      * @returns Lista de jugadores de un tipo concreto.
      */
-    public Player[] getPlayerList(String playerType) {
+    public Player[] getPlayerList(PlayerType playerType) {
         FilteredList<Player> filtered;
         Player[] typeList;
 
         // Filtra la lista en función del tipo de jugador.
-        if (playerType.equals("center")) {
+        if (playerType == PlayerType.CENTER) {
             filtered = this.playerList.filtered((Player player) -> player instanceof CenterPlayer);
-        } else if (playerType.equals("pointGuard")) {
+        } else if (playerType == PlayerType.POINT_GUARD) {
             filtered = this.playerList.filtered((Player player) -> player instanceof PointGuardPlayer);
-        } else if (playerType.equals("powerForward")) {
+        } else if (playerType == PlayerType.POWER_FORWARD) {
             filtered = this.playerList.filtered((Player player) -> player instanceof PowerForwardPlayer);
-        } else if (playerType.equals("shootingGuard")) {
+        } else if (playerType == PlayerType.SHOOTING_GUARD) {
             filtered = this.playerList.filtered((Player player) -> player instanceof ShootingGuardPlayer);
-        } else if (playerType.equals("smallForward")) {
+        } else if (playerType == PlayerType.SMALL_FORWARD) {
             filtered = this.playerList.filtered((Player player) -> player instanceof SmallForwardPlayer);
         } else {
             filtered = this.playerList.filtered((Player player) -> player instanceof Player);

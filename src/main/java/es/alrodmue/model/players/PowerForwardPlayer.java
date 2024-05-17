@@ -35,7 +35,7 @@ public class PowerForwardPlayer extends Player {
      * @returns String con el tipo del jugador.
      */
     @Override
-    public String getType() {
-        return "Ala-Pivot";
+    public PlayerType getType() {
+        return PlayerType.POWER_FORWARD;
     }
 }

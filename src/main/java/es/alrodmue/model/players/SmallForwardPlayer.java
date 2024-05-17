@@ -35,7 +35,7 @@ public class SmallForwardPlayer extends Player {
      * @returns String con el tipo del jugador.
      */
     @Override
-    public String getType() {
-        return "Alero";
+    public PlayerType getType() {
+        return PlayerType.SMALL_FORWARD;
     }
 }

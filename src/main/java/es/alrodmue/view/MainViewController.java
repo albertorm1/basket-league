@@ -10,6 +10,7 @@ import es.alrodmue.controller.PlayerController;
 import es.alrodmue.model.Team;
 import es.alrodmue.model.matches.Match;
 import es.alrodmue.model.players.Player;
+import es.alrodmue.model.players.PlayerType;
 import javafx.beans.binding.Bindings;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -28,7 +29,8 @@ public class MainViewController implements Initializable {
     
     // Obtener objetos
     @FXML private TableView<Player> playerTable;
-    @FXML private TableColumn<Player, String> playerName, playerPosition;
+    @FXML private TableColumn<Player, String> playerName;
+    @FXML private TableColumn<Player, PlayerType> playerPosition;
     @FXML private TableColumn<Player, Integer> playerNumber;
     @FXML private TableView<Match> matchTable;
     @FXML private TableColumn<Match, LocalDate> matchDate;

@@ -237,5 +237,5 @@ public abstract class Player {
      * Método abstracto, intencionado para obtener una cadena de texto con el tipo del jugador.
      * @return Tipo del jugador.
      */
-    public abstract String getType();
+    public abstract PlayerType getType();
 }

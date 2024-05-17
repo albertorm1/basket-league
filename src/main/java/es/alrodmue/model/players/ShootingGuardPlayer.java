@@ -35,7 +35,7 @@ public class ShootingGuardPlayer extends Player {
      * @returns String con el tipo del jugador.
      */
     @Override
-    public String getType() {
-        return "Escolta";
+    public PlayerType getType() {
+        return PlayerType.SHOOTING_GUARD;
     }
 }

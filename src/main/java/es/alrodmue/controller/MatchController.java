@@ -9,6 +9,7 @@ import es.alrodmue.model.factories.MatchFactory;
 import es.alrodmue.model.fouls.Foul;
 import es.alrodmue.model.matches.Match;
 import es.alrodmue.model.players.Player;
+import es.alrodmue.model.players.PlayerType;
 import javafx.collections.ObservableList;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
@@ -44,7 +45,7 @@ public class MatchController {
         MatchFactory factory = MatchFactory.getInstance();
         Team team = Team.getInstance();
 
-        String[] playerTypes = {"center", "pointGuard", "powerForward", "shootingGuard", "smallForward"};
+        PlayerType[] playerTypes = {PlayerType.POINT_GUARD, PlayerType.SHOOTING_GUARD, PlayerType.SMALL_FORWARD, PlayerType.POWER_FORWARD, PlayerType.CENTER};
         Player[] playersOfType;
         int rand;
 
