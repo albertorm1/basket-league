@@ -78,9 +78,9 @@
                         </TableView>
                         <VBox prefHeight="200.0" prefWidth="150.0" spacing="10.0" HBox.hgrow="NEVER">
                            <children>
-                              <Button fx:id="playMatchButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Jugar" />
-                              <Button fx:id="viewMatchButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Detalles" />
-                              <Button fx:id="lastMatchButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Ultimo partido" />
+                              <Button fx:id="playMatchButton" mnemonicParsing="false" onAction="#onPlayMatchButtonClick" prefHeight="40.0" prefWidth="99999.0" text="Jugar" />
+                              <Button fx:id="viewMatchButton" mnemonicParsing="false" onAction="#onViewMatchButtonClick" prefHeight="40.0" prefWidth="99999.0" text="Detalles" />
+                              <Button fx:id="lastMatchButton" mnemonicParsing="false" onAction="#onLastMatchButtonClick" prefHeight="40.0" prefWidth="99999.0" text="Ultimo partido" />
                            </children>
                         </VBox>
                      </children>

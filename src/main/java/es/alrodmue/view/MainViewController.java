@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import java.util.ResourceBundle;
 
 import es.alrodmue.App;
+import es.alrodmue.controller.MatchController;
 import es.alrodmue.controller.PlayerController;
 import es.alrodmue.model.Team;
 import es.alrodmue.model.matches.Match;
@@ -112,6 +113,33 @@ public class MainViewController implements Initializable {
     @FXML
     private void onPlayerTypeButtonClick() throws IOException {
         PlayerController.getInstance().showPlayerDetails(playerTypeSelect.getValue());
+    }
+
+    /**
+     * Método que se ejecuta cuando se pulsa el botón de jugar partido.
+     * @throws IOException
+     */
+    @FXML
+    private void onPlayMatchButtonClick() throws IOException {
+        App.showModal("addMatch", "Jugar partido");
+    }
+
+    /**
+     * Método que se ejecuta cuando se pulsa el botón de ver detalles de un partido.
+     * @throws IOException
+     */
+    @FXML
+    private void onViewMatchButtonClick() throws IOException {
+        MatchController.getInstance().showMatchDetails(matchTable.getSelectionModel().getSelectedItem());
+    }
+
+    /**
+     * Método que se ejecuta cuando se pulsa el botón de ver los detalles del último partido.
+     * @throws IOException
+     */
+    @FXML
+    private void onLastMatchButtonClick() throws IOException {
+        MatchController.getInstance().showMatchDetails();
     }
 
 }
