@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import es.alrodmue.model.exceptions.MatchInvalidDataException;
 import es.alrodmue.model.matches.ExhibitionMatch;
 import es.alrodmue.model.matches.Match;
+import es.alrodmue.model.matches.MatchType;
 import es.alrodmue.model.matches.OfficialLocalMatch;
 import es.alrodmue.model.matches.OfficialVisitorMatch;
 import es.alrodmue.model.players.Player;
@@ -39,19 +40,15 @@ public class MatchFactory {
      * @throws MatchInvalidDataException Excepción que se produce cuando alguno de los datos del partido no es válido. Contiene un mensaje de error entendible por el usuario.
      * @throws Exception Excepción inesperada.
      */
-    public Match create(String type, LocalDate date, Player[] players) throws MatchInvalidDataException, Exception {
+    public Match create(MatchType type, LocalDate date, Player[] players) throws MatchInvalidDataException, Exception {
         Match match;
 
-        switch (type) {
-            case "Oficial (Local)":
-                match = new OfficialLocalMatch(date, players);
-                break;
-            case "Oficial (Visitante)":
-                match = new OfficialVisitorMatch(date, players);
-                break;
-            default:
-                match = new ExhibitionMatch(date, players);
-                break;
+        if (type == MatchType.OFFICIAL_LOCAL) {
+            match = new OfficialLocalMatch(date, players);
+        } else if (type == MatchType.OFFICIAL_VISITOR) {
+            match = new OfficialVisitorMatch(date, players);
+        } else {
+            match = new ExhibitionMatch(date, players);
         }
 
         return match;

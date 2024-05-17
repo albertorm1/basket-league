@@ -8,6 +8,7 @@ import es.alrodmue.model.exceptions.MatchInvalidDataException;
 import es.alrodmue.model.factories.MatchFactory;
 import es.alrodmue.model.fouls.Foul;
 import es.alrodmue.model.matches.Match;
+import es.alrodmue.model.matches.MatchType;
 import es.alrodmue.model.players.Player;
 import es.alrodmue.model.players.PlayerType;
 import javafx.collections.ObservableList;
@@ -41,7 +42,7 @@ public class MatchController {
      * Método para jugar un partido.
      * @param type Tipo de partido.
      */
-    public void playMatch(String type) {
+    public void playMatch(MatchType type) {
         MatchFactory factory = MatchFactory.getInstance();
         Team team = Team.getInstance();
 
