@@ -30,7 +30,7 @@ public abstract class Match {
      * @param date Fecha del partido
      * @param players Lista de jugadores que juegan en el partido.
      * @throws MatchInvalidDataException Excepción que indica si algún dato del partido no es válido. El mensaje de la excepción contiene un mensaje.
-     * @throws Esception Excepción inesperada.
+     * @throws Exception Excepción inesperada.
      * de error entendible por el usuario.
      */
     public Match(LocalDate date, Player[] players) throws MatchInvalidDataException, Exception {
