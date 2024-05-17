@@ -1,5 +1,6 @@
 package es.alrodmue.controller;
 
+import es.alrodmue.App;
 import es.alrodmue.model.Team;
 import es.alrodmue.model.exceptions.PlayerInvalidDataException;
 import es.alrodmue.model.exceptions.TeamInvalidDataException;
@@ -37,18 +38,23 @@ public class PlayerController {
      * @param height Altura del jugador en centímetros.
      * @param skill Nivel de habilidad del jugador del 1 al 5.
      */
-    public void createPlayer(String name, int height, int skill) {
+    public void createPlayer(String name, String heightString, int skill) {
         PlayerFactory factory = PlayerFactory.getInstance();
         Team team = Team.getInstance();
+        int height;
         Player player;
 
         try {
-           player = factory.create(name, height, skill);
-           team.addPlayer(player);
+            height = Integer.parseInt(heightString); 
+            player = factory.create(name, height, skill);
+            team.addPlayer(player);
+            App.closeModal();
         } catch (PlayerInvalidDataException e) {
             this.showError(e.getMessage());
         } catch (TeamInvalidDataException e) {
             this.showError(e.getMessage());
+        } catch (NumberFormatException e) {
+            this.showError("Debe introducir un número válido como altura.");   
         } catch (Exception e) {
             this.showError("Error inesperado");
         }
