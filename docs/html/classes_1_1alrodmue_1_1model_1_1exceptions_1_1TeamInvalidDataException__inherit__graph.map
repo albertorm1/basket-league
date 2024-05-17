@@ -1,0 +1,9 @@
+<map id="es.alrodmue.model.exceptions.TeamInvalidDataException" name="es.alrodmue.model.exceptions.TeamInvalidDataException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="141,119,359,199"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1TeamPlayerListFullException.xhtml" title=" " alt="" coords="5,247,231,327"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,210,161,248,157,244,197,206"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1TeamPlayerPositionFullException.xhtml" title=" " alt="" coords="255,247,509,327"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="303,206,343,244,339,248,299,210"/>
+<area shape="rect" id="Node000002" href="$classException.xhtml" title=" " alt="" coords="211,5,289,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,85,253,118,247,118,247,85"/>
+</map>

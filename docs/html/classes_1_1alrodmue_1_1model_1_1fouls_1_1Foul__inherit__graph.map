@@ -1,0 +1,9 @@
+<map id="es.alrodmue.model.fouls.Foul" name="es.alrodmue.model.fouls.Foul">
+<area shape="rect" id="Node000001" title=" " alt="" coords="196,5,403,191"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1fouls_1_1FlagrantFoul.xhtml" title=" " alt="" coords="5,239,185,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,202,150,241,146,237,188,198"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1fouls_1_1PersonalFoul.xhtml" title=" " alt="" coords="209,239,389,339"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="302,205,302,239,297,239,297,205"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1model_1_1fouls_1_1TechnicalFoul.xhtml" title=" " alt="" coords="413,239,593,339"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="411,198,452,237,449,241,407,202"/>
+</map>

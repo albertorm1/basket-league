@@ -1,0 +1,13 @@
+<map id="es.alrodmue.model.players.PointGuardPlayer" name="es.alrodmue.model.players.PointGuardPlayer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="17,804,213,904"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml" title=" " alt="" coords="17,335,213,755"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,768,118,804,113,804,113,768"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,57,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="40,220,59,310,61,318,56,319,54,311,35,221"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="100,155,131,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="118,221,118,318,113,318,113,221"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="155,148,447,228"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="283,229,223,343,219,340,278,227"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="245,5,356,71"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="303,84,303,148,298,148,298,84"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="es.alrodmue.model.exceptions.FoulInvalidDataException" name="es.alrodmue.model.exceptions.FoulInvalidDataException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="127,119,345,199"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1FoulInvalidMatchException.xhtml" title=" " alt="" coords="5,247,224,327"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,211,154,248,150,245,187,207"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1FoulInvalidPlayerException.xhtml" title=" " alt="" coords="248,247,467,327"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="285,207,322,245,318,248,281,211"/>
+<area shape="rect" id="Node000002" href="$classException.xhtml" title=" " alt="" coords="197,5,275,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,85,239,118,233,118,233,85"/>
+</map>

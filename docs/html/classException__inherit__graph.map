@@ -1,0 +1,29 @@
+<map id="Exception" name="Exception">
+<area shape="rect" id="Node000001" title=" " alt="" coords="955,5,1034,71"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1FoulInvalidDataException.xhtml" title=" " alt="" coords="248,119,467,199"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="943,52,467,140,466,134,942,46"/>
+<area shape="rect" id="Node000005" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1MatchInvalidDataException.xhtml" title=" " alt="" coords="752,119,971,199"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="951,82,907,120,903,116,947,78"/>
+<area shape="rect" id="Node000008" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1PlayerInvalidDataException.xhtml" title=" " alt="" coords="1145,119,1364,199"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1048,60,1170,116,1168,121,1045,65"/>
+<area shape="rect" id="Node000012" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1TeamInvalidDataException.xhtml" title=" " alt="" coords="1765,119,1984,199"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1048,44,1765,140,1765,145,1047,49"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1FoulInvalidMatchException.xhtml" title=" " alt="" coords="5,254,224,334"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="276,208,187,256,184,252,273,203"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1FoulInvalidPlayerException.xhtml" title=" " alt="" coords="248,254,467,334"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="360,212,360,254,355,254,355,212"/>
+<area shape="rect" id="Node000006" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1MatchInvalidDateException.xhtml" title=" " alt="" coords="491,254,709,334"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="774,207,678,256,675,252,772,203"/>
+<area shape="rect" id="Node000007" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1MatchInvalidPlayerAmountException.xhtml" title=" " alt="" coords="734,247,989,341"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="864,212,864,247,859,247,859,212"/>
+<area shape="rect" id="Node000009" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1PlayerInvalidHeightException.xhtml" title=" " alt="" coords="1013,254,1243,334"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1210,211,1167,256,1163,252,1206,207"/>
+<area shape="rect" id="Node000010" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1PlayerInvalidNameException.xhtml" title=" " alt="" coords="1268,254,1495,334"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="1303,207,1346,252,1342,256,1299,211"/>
+<area shape="rect" id="Node000011" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1PlayerInvalidSkillException.xhtml" title=" " alt="" coords="1519,254,1737,334"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="1378,199,1508,244,1527,251,1525,256,1506,249,1376,204"/>
+<area shape="rect" id="Node000013" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1TeamPlayerListFullException.xhtml" title=" " alt="" coords="1762,254,1987,334"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1877,212,1877,254,1872,254,1872,212"/>
+<area shape="rect" id="Node000014" href="$classes_1_1alrodmue_1_1model_1_1exceptions_1_1TeamPlayerPositionFullException.xhtml" title=" " alt="" coords="2012,254,2265,334"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="1965,202,2063,252,2060,256,1962,207"/>
+</map>
