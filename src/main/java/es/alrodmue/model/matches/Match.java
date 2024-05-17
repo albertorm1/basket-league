@@ -76,7 +76,7 @@ public abstract class Match {
         aux1 = (int) (Math.random() * 5) + 1;
         for (int i = 0; i < aux1; i++) {
             aux2 = (int) (Math.random() * players.length);
-            this.fouls.add(foulFactory.create(players[i], this));
+            this.fouls.add(foulFactory.create(players[aux2], this));
         }
 
         // Asigna el resto de parámetros
@@ -206,7 +206,7 @@ public abstract class Match {
         // Faltas
         details += "\nFaltas:\n";
         for (Foul foul : this.fouls) {
-            String.format("%s - %s\n", foul.getType(), foul.getPlayer());
+            details += String.format("%s - %s\n", foul.getType(), foul.getPlayer());
         }
 
         return details;
