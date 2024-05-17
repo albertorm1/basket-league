@@ -12,6 +12,7 @@ import es.alrodmue.model.matches.Match;
 import es.alrodmue.model.players.Player;
 import es.alrodmue.model.players.PlayerType;
 import javafx.beans.binding.Bindings;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -35,13 +36,14 @@ public class MainViewController implements Initializable {
     @FXML private TableView<Match> matchTable;
     @FXML private TableColumn<Match, LocalDate> matchDate;
     @FXML private TableColumn<Match, String> matchType, matchWinner;
-    @FXML private ChoiceBox<String> playerTypeSelect;
+    @FXML private ChoiceBox<PlayerType> playerTypeSelect;
     @FXML private Button addPlayerButton, viewPlayerButton, deletePlayerButton, playerTypeButton, playMatchButton, viewMatchButton, lastMatchButton;
 
     // Propiedades
     private Team team = Team.getInstance();
     private ObservableList<Player> playerList = team.getPlayerList();
     private ObservableList<Match> matchList = team.getMatchList();
+    private PlayerType[] playerTypes = {PlayerType.POINT_GUARD, PlayerType.SHOOTING_GUARD, PlayerType.SMALL_FORWARD, PlayerType.POWER_FORWARD, PlayerType.CENTER};
 
     /**
      * Método que se ejecuta automáticamente al cargar la vista.
@@ -61,9 +63,12 @@ public class MainViewController implements Initializable {
         matchWinner.setCellValueFactory(new PropertyValueFactory<>("winner"));
         matchTable.setItems(this.matchList);
 
+        // Inicializar selector de tipo
+        playerTypeSelect.setItems(FXCollections.observableArrayList(playerTypes));
+
         // Objects activation
         playerTypeSelect.disableProperty().bind(Bindings.isEmpty(this.playerList));
-        playerTypeButton.disableProperty().bind(Bindings.isEmpty(this.playerList));
+        playerTypeButton.disableProperty().bind(Bindings.or(Bindings.isEmpty(this.playerList), playerTypeSelect.getSelectionModel().selectedItemProperty().isNull()));
         lastMatchButton.disableProperty().bind(Bindings.isEmpty(this.matchList));
 
         viewPlayerButton.disableProperty().bind(playerTable.getSelectionModel().selectedItemProperty().isNull());
@@ -98,6 +103,15 @@ public class MainViewController implements Initializable {
     @FXML
     private void onDeletePlayerButtonClick() throws IOException {
         PlayerController.getInstance().removePlayer(playerTable.getSelectionModel().getSelectedItem());
+    }
+
+    /**
+     * Método que se ejecuta cuando se pulsa el botón de ver por tipo.
+     * @throws IOException
+     */
+    @FXML
+    private void onPlayerTypeButtonClick() throws IOException {
+        PlayerController.getInstance().showPlayerDetails(playerTypeSelect.getValue());
     }
 
 }

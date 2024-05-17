@@ -45,8 +45,8 @@
                               </VBox>
                               <VBox alignment="BOTTOM_LEFT" spacing="10.0" VBox.vgrow="ALWAYS">
                                  <children>
-                                    <ChoiceBox fx:id="playerTypeSelect" prefHeight="40.0" prefWidth="99999.0" />
-                                    <Button fx:id="playerTypeButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="99999.0" text="Ver por tipo" />
+                                    <ChoiceBox fx:id="playerTypeSelect" maxWidth="1.7976931348623157E308" prefHeight="40.0" />
+                                    <Button fx:id="playerTypeButton" mnemonicParsing="false" onAction="#onPlayerTypeButtonClick" prefHeight="40.0" prefWidth="99999.0" text="Ver por tipo" />
                                  </children>
                               </VBox>
                            </children>

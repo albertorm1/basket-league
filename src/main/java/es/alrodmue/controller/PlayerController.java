@@ -6,6 +6,7 @@ import es.alrodmue.model.exceptions.PlayerInvalidDataException;
 import es.alrodmue.model.exceptions.TeamInvalidDataException;
 import es.alrodmue.model.factories.PlayerFactory;
 import es.alrodmue.model.players.Player;
+import es.alrodmue.model.players.PlayerType;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Alert.AlertType;
@@ -66,6 +67,23 @@ public class PlayerController {
      */
     public void showPlayerDetails(Player player) {
         this.showInfo("Información del jugador", player.getDetail());
+    }
+
+    /**
+     * Método para mostrar los detalles de todos los jugadores de un tipo.
+     * @param playerType
+     */
+    public void showPlayerDetails(PlayerType playerType) {
+        Team team = Team.getInstance();
+        Player[] playerList = team.getPlayerList(playerType);
+        String detail = "";
+        for (Player player : playerList) {
+            detail += "\n--------------------\n";
+            detail += player.getDetail();
+            detail += "\n--------------------\n";
+        }
+
+        this.showInfo("Jugadores", detail);
     }
 
     /**
