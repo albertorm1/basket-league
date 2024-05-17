@@ -63,9 +63,9 @@ public abstract class Match {
         aux2 = this.ownPoints;
         for (int i = 0; i < players.length; i++) {
             if (i == players.length - 1) {
-                aux1 = aux2;
+                aux1 = aux2 > 0 ? aux2 : 0;
             } else {
-                aux1 = (int) (Math.random() * aux2) + 1;
+                aux1 = aux2 > 0 ? (int) (Math.random() * aux2) + 1 : 0;
             }
 
             aux2 -= aux1;
