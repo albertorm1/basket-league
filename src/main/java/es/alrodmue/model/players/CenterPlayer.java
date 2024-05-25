@@ -1,6 +1,7 @@
 package es.alrodmue.model.players;
 
 import es.alrodmue.model.exceptions.PlayerInvalidDataException;
+import es.alrodmue.model.fouls.Foul;
 
 /**
  * Clase para jugadores pivot. 
