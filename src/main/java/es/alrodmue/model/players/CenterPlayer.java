@@ -31,6 +31,20 @@ public class CenterPlayer extends Player {
     }
 
     /**
+     * Constructor que se usará para cargar los datos de un archivo cuando se cargue la clase. No genera ningún valor automáticamente.
+     * @param name Nombre del jugador.
+     * @param number Número de dorsal del jugador.
+     * @param height Altura del jugador.
+     * @param skill Habilidad del jugador.
+     * @param points Puntos totales del jugador.
+     * @param fouls Array de faltas del jugador.
+     * @throws PlayerInvalidDataException Excepción que indica que alguno de los parámetros introducidos no es válido. Incluye como mensaje un mensaje de error entendible para el usuario.
+     */
+    public CenterPlayer (String name, int number, int height, int skill, int points, Foul[] fouls) throws PlayerInvalidDataException {
+        super(name, number, height, skill, points, fouls);
+    }
+
+    /**
      * Clase que devuelve el tipo de jugador.
      * @returns String con el tipo del jugador.
      */

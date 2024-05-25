@@ -57,6 +57,31 @@ public abstract class Player {
         this.fouls = FXCollections.observableArrayList();
     }
 
+    /**
+     * Constructor que se usará para cargar los datos de un archivo cuando se cargue la clase. No genera ningún valor automáticamente.
+     * @param name Nombre del jugador.
+     * @param number Número de dorsal del jugador.
+     * @param height Altura del jugador.
+     * @param skill Habilidad del jugador.
+     * @param points Puntos totales del jugador.
+     * @param fouls Array de faltas del jugador.
+     * @throws PlayerInvalidDataException Excepción que indica que alguno de los parámetros introducidos no es válido. Incluye como mensaje un mensaje de error entendible para el usuario.
+     */
+    public Player (String name, int number, int height, int skill, int points, Foul[] fouls) throws PlayerInvalidDataException {
+        if (!isNameValid(name)) throw new PlayerInvalidNameException();
+        if (!isHeightValid(height)) throw new PlayerInvalidHeightException();
+        if (!isSkillValid(skill)) throw new PlayerInvalidHeightException();
+
+        this.name = name;
+        this.number = number;
+        this.height = height;
+        this.skill = skill;
+        this.points = points;
+        this.fouls = FXCollections.observableArrayList();
+
+        if (nextNumber <= number) nextNumber = number + 1;
+    }
+
     
     /**
      * Método para obtener el nombre completo del jugador.
