@@ -1,6 +1,7 @@
 package es.alrodmue.model.factories;
 
 import es.alrodmue.model.exceptions.PlayerInvalidDataException;
+import es.alrodmue.model.fouls.Foul;
 import es.alrodmue.model.players.CenterPlayer;
 import es.alrodmue.model.players.Player;
 import es.alrodmue.model.players.PointGuardPlayer;
@@ -68,6 +69,55 @@ public class PlayerFactory {
             case 8:
             case 9:
                 player = new CenterPlayer(name, height, skill);
+                break;
+            // No encaja en perfil
+            default:
+                throw new PlayerInvalidDataException("El jugador no encaja en ningún perfil.");
+        }
+
+        return player;
+    }
+
+    /**
+     * Método que determina que tipo de jugador debe importar y crea el objeto correspondiente.
+     * @param name Nombre completo del jugador.
+     * @param number Número de dorsal del jugador.
+     * @param height Altura del jugador en centímetros.
+     * @param skill Nivel de habilidad del jugador, expresado del 1 al 5.
+     * @param points Puntos totales del jugador.
+     * @returns Jugador generado.
+     * @throws PlayerInvalidDataException Excepción que se producirá si alguno de los datos del jugador no es válido. Contiene como mensaje un mensaje de error entendible por los usuarios.
+     */
+    public Player load(String name, int number, int height, int skill, int totalPoints) throws PlayerInvalidDataException {
+        int heightPoints = (int) Math.round((height - 150) / 20); // Calcula puntos de altura entre el 1 y el 5.
+        int points = heightPoints - skill + 5; // Calcula puntos entre el 0 y el 9 combinando la altura y la habilidad.
+        Player player;
+
+        switch (points) {
+            // Base
+            case 0:
+            case 1:
+                player = new PointGuardPlayer(name, number, height, skill, totalPoints, new Foul[0]);
+                break;
+            // Escolta
+            case 2:
+            case 3:
+                player = new ShootingGuardPlayer(name, number, height, skill, totalPoints, new Foul[0]);
+                break;
+            // Alero
+            case 4:
+            case 5:
+                player = new SmallForwardPlayer(name, number, height, skill, totalPoints, new Foul[0]);
+                break;
+            // Ala-pivot
+            case 6:
+            case 7:
+                player = new PowerForwardPlayer(name, number, height, skill, totalPoints, new Foul[0]);
+                break;
+            // Pivot
+            case 8:
+            case 9:
+                player = new CenterPlayer(name, number, height, skill, totalPoints, new Foul[0]);
                 break;
             // No encaja en perfil
             default:
