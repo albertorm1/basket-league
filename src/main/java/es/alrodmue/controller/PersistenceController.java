@@ -3,13 +3,18 @@ package es.alrodmue.controller;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 import es.alrodmue.model.Team;
+import es.alrodmue.model.factories.MatchFactory;
 import es.alrodmue.model.factories.PlayerFactory;
 import es.alrodmue.model.fouls.Foul;
 import es.alrodmue.model.matches.Match;
+import es.alrodmue.model.matches.MatchType;
 import es.alrodmue.model.players.Player;
 
 /**
@@ -22,8 +27,6 @@ public class PersistenceController {
 
     private File file;
     private ArrayList<Player> playerList = new ArrayList<Player>();
-    private ArrayList<Match> matchList = new ArrayList<Match>();
-    private ArrayList<Foul> foulList = new ArrayList<Foul>(); 
 
     /**
      * Constructor privado
@@ -40,6 +43,31 @@ public class PersistenceController {
         if (instance == null) instance = new PersistenceController("data.txt");
         return instance;
     }
+
+    /**
+     * Método que obtiene un jugador a partir de su número de dorsal
+     * @param number Número a buscar.
+     * @return Jugador encontrado.
+     */
+    private Player getPlayerFromNumber(int number) {
+        for (Player player : this.playerList) {
+            if (player.getNumber() == number) return player;
+        }
+        return null;
+    }
+
+    /**
+     * Método que obtiene un partido a partir de su número
+     * @param number Número a buscar.
+     * @return Partido encontrado.
+     */
+    private Match getMatchFromNumber(int number) {
+        for (Match match : Team.getInstance().getMatchList()) {
+            if (match.getNumber() == number) return match;
+        }
+        return null;
+    }
+
 
     /**
      * Método para añadir un jugador al archivo.
@@ -116,6 +144,23 @@ public class PersistenceController {
         this.file.delete();
         tempFile.renameTo(this.file);
     }
+
+    /**
+     * Método para añadir un partido al archivo.
+     * @param match Partido a añadir.
+     * @throws Exception Excepción inesperada.
+     */
+    public void addMatch(Match match) throws Exception {
+        String data = String.format("M\t%s\t%s\t%s\t%s\t%s", match.getNumber(), match.getType().name(), match.getDate(), match.getOwnPoints(), match.getRivalPoints());
+
+        for (Map.Entry<Player, Integer> entry : match.getPlayerPoints().entrySet()) {
+            data += String.format("\t%s\t%s", entry.getKey().getNumber(), entry.getValue());
+        }
+
+        try (PrintWriter writer = new PrintWriter(new FileWriter(this.file, true))) {
+            writer.print(String.format("\n%s", data));
+        }
+    }
     
     /**
      * Método que carga en el sistema todos los datos.
@@ -136,6 +181,9 @@ public class PersistenceController {
                 switch (data[0]) {
                     case "P":
                         this.loadPlayer(data);
+                        break;
+                    case "M":
+                        this.loadMatch(data);
                         break;
                 }
             }
@@ -160,5 +208,31 @@ public class PersistenceController {
 
         this.playerList.add(player);
         if (inTeam) Team.getInstance().addPlayer(player);
+    }
+
+
+    /**
+     * Método para cargar un partido.
+     * @param data Array con los datos del partido.
+     * @throws Exception Excepción inesperada.
+     */
+    private void loadMatch(String[] data) throws Exception {
+
+        int number = Integer.parseInt(data[1]);
+        MatchType type = MatchType.valueOf(data[2]);
+        LocalDate date = LocalDate.parse(data[3]);
+        int ownPoints = Integer.parseInt(data[4]);
+        int rivalPoints = Integer.parseInt(data[5]);
+        HashMap<Player, Integer> points = new HashMap<Player, Integer>();
+        Player player;
+        Match match;
+
+        for (int i = 6; i < data.length; i += 2) {
+            player = this.getPlayerFromNumber(Integer.parseInt(data[i]));
+            points.put(player, Integer.parseInt(data[i+1]));
+        }
+
+        match = MatchFactory.getInstance().load(number, type, date, ownPoints, rivalPoints, points);
+        Team.getInstance().addMatch(match);
     }
 }

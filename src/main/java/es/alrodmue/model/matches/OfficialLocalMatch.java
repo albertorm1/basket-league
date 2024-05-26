@@ -1,6 +1,7 @@
 package es.alrodmue.model.matches;
 
 import java.time.LocalDate;
+import java.util.HashMap;
 
 import es.alrodmue.model.exceptions.MatchInvalidDataException;
 import es.alrodmue.model.players.Player;
@@ -20,6 +21,18 @@ public class OfficialLocalMatch extends Match {
      */
     public OfficialLocalMatch(LocalDate date, Player[] players) throws MatchInvalidDataException, Exception {
         super(date, players);
+    }
+
+    /**
+     * Constructor usado para importar los datos almacenados.
+     * @param number Número de partido.
+     * @param date Fehca
+     * @param ownPoints Puntos del equipo propio
+     * @param rivalPoints Puntos del equipo rival
+     * @param points Puntos de cada jugador
+     */
+    public OfficialLocalMatch(int number, LocalDate date, int ownPoints, int rivalPoints, HashMap<Player, Integer> points) {
+        super(number, date, ownPoints, rivalPoints, points);
     }
 
     /**

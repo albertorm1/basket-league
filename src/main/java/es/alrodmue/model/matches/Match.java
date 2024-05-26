@@ -18,6 +18,9 @@ import es.alrodmue.model.players.Player;
  */
 public abstract class Match {
     
+    private static int nextNumber = 1;
+
+    protected final int number;
     protected final LocalDate date;
     protected final int ownPoints;
     protected final int rivalPoints;
@@ -82,6 +85,28 @@ public abstract class Match {
         // Asigna el resto de parámetros
         this.date = date;
         this.playerList = players;
+        this.number = nextNumber++;
+    }
+
+    /**
+     * Constructor usado para importar los datos almacenados.
+     * @param number Número de partido.
+     * @param date Fehca
+     * @param ownPoints Puntos del equipo propio
+     * @param rivalPoints Puntos del equipo rival
+     * @param points Puntos de cada jugador
+     */
+    public Match(int number, LocalDate date, int ownPoints, int rivalPoints, HashMap<Player, Integer> points) {
+        this.number = number;
+        this.date = date;
+        this.ownPoints = ownPoints;
+        this.rivalPoints = rivalPoints;
+        this.playerPoints = points;
+        
+        this.playerList = new Player[points.size()];
+        points.keySet().toArray(this.playerList);
+
+        if (nextNumber <= number) nextNumber = number + 1;
     }
 
     /**
@@ -179,6 +204,14 @@ public abstract class Match {
      */
     public ArrayList<Foul> getFouls() {
         return this.fouls;
+    }
+
+    /**
+     * Método para obtener el número del partido.
+     * @return Número del partido
+     */
+    public int getNumber() {
+        return this.number;
     }
 
     /**

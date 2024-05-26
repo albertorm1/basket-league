@@ -82,6 +82,7 @@ public class MatchController {
 
             // Añade el partido a la lista y muestra los detalles del partido
             team.addMatch(match);
+            PersistenceController.getInstance().addMatch(match);
             App.closeModal();
             this.showInfo("Resumen del partido", match.getDetails());
 

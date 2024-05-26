@@ -1,6 +1,7 @@
 package es.alrodmue.model.factories;
 
 import java.time.LocalDate;
+import java.util.HashMap;
 
 import es.alrodmue.model.exceptions.MatchInvalidDataException;
 import es.alrodmue.model.matches.ExhibitionMatch;
@@ -49,6 +50,20 @@ public class MatchFactory {
             match = new OfficialVisitorMatch(date, players);
         } else {
             match = new ExhibitionMatch(date, players);
+        }
+
+        return match;
+    }
+
+    public Match load(int number, MatchType type, LocalDate date, int ownPoints, int rivalPoints, HashMap<Player, Integer> points) throws MatchInvalidDataException, Exception {
+        Match match;
+
+        if (type == MatchType.OFFICIAL_LOCAL) {
+            match = new OfficialLocalMatch(number, date, ownPoints, rivalPoints, points);
+        } else if (type == MatchType.OFFICIAL_VISITOR) {
+            match = new OfficialVisitorMatch(number, date, ownPoints, rivalPoints, points);
+        } else {
+            match = new ExhibitionMatch(number, date, ownPoints, rivalPoints, points);
         }
 
         return match;
