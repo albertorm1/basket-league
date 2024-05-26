@@ -35,6 +35,14 @@ public class PersistenceController {
      */
     private PersistenceController(String fileName) {
         this.file= new File(fileName);
+        if(!file.exists()) {
+            try {
+                new FileWriter(file).close();
+            } catch (Exception e) {
+                System.out.println("No se ha podido crear el archivo");
+                System.exit(1);
+            }
+        }
     }
 
     /**
