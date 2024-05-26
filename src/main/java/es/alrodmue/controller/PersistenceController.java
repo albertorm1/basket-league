@@ -50,7 +50,7 @@ public class PersistenceController {
      * @returns Instancia única de la clase.
      */
     public static PersistenceController getInstance() {
-        if (instance == null) instance = new PersistenceController("data.txt");
+        if (instance == null) instance = new PersistenceController("basket.dat");
         return instance;
     }
 
