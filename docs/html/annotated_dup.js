@@ -4,6 +4,7 @@ var annotated_dup =
       [ "alrodmue", "namespacees_1_1alrodmue.xhtml", [
         [ "controller", "namespacees_1_1alrodmue_1_1controller.xhtml", [
           [ "MatchController", "classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml", "classes_1_1alrodmue_1_1controller_1_1MatchController" ],
+          [ "PersistenceController", "classes_1_1alrodmue_1_1controller_1_1PersistenceController.xhtml", "classes_1_1alrodmue_1_1controller_1_1PersistenceController" ],
           [ "PlayerController", "classes_1_1alrodmue_1_1controller_1_1PlayerController.xhtml", "classes_1_1alrodmue_1_1controller_1_1PlayerController" ]
         ] ],
         [ "model", "namespacees_1_1alrodmue_1_1model.xhtml", [
@@ -30,6 +31,7 @@ var annotated_dup =
           [ "fouls", "namespacees_1_1alrodmue_1_1model_1_1fouls.xhtml", [
             [ "FlagrantFoul", "classes_1_1alrodmue_1_1model_1_1fouls_1_1FlagrantFoul.xhtml", "classes_1_1alrodmue_1_1model_1_1fouls_1_1FlagrantFoul" ],
             [ "Foul", "classes_1_1alrodmue_1_1model_1_1fouls_1_1Foul.xhtml", "classes_1_1alrodmue_1_1model_1_1fouls_1_1Foul" ],
+            [ "FoulType", "enumes_1_1alrodmue_1_1model_1_1fouls_1_1FoulType.xhtml", "enumes_1_1alrodmue_1_1model_1_1fouls_1_1FoulType" ],
             [ "PersonalFoul", "classes_1_1alrodmue_1_1model_1_1fouls_1_1PersonalFoul.xhtml", "classes_1_1alrodmue_1_1model_1_1fouls_1_1PersonalFoul" ],
             [ "TechnicalFoul", "classes_1_1alrodmue_1_1model_1_1fouls_1_1TechnicalFoul.xhtml", "classes_1_1alrodmue_1_1model_1_1fouls_1_1TechnicalFoul" ]
           ] ],

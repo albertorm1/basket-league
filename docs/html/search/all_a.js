@@ -5,7 +5,7 @@ var searchData=
   ['mainviewcontroller_2ejava_2',['MainViewController.java',['../MainViewController_8java.xhtml',1,'']]],
   ['match_3',['Match',['../classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml',1,'es::alrodmue::model::matches']]],
   ['match_4',['match',['../classes_1_1alrodmue_1_1model_1_1fouls_1_1Foul.xhtml#a3118fb9f524dfa1aa612877e03a08f08',1,'es::alrodmue::model::fouls::Foul']]],
-  ['match_5',['Match',['../classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml#ac04ca25fcac1f05f06b0e9007131db36',1,'es::alrodmue::model::matches::Match']]],
+  ['match_5',['Match',['../classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml#ac04ca25fcac1f05f06b0e9007131db36',1,'es.alrodmue.model.matches.Match.Match(LocalDate date, Player[] players)'],['../classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml#a9e8803871b01eefa839450a8a6d5d86c',1,'es.alrodmue.model.matches.Match.Match(int number, LocalDate date, int ownPoints, int rivalPoints, HashMap&lt; Player, Integer &gt; points)']]],
   ['match_2ejava_6',['Match.java',['../Match_8java.xhtml',1,'']]],
   ['matchcontroller_7',['MatchController',['../classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml',1,'es.alrodmue.controller.MatchController'],['../classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml#a2f1ee9d732dc42e8c47bc94289827650',1,'es.alrodmue.controller.MatchController.MatchController()']]],
   ['matchcontroller_2ejava_8',['MatchController.java',['../MatchController_8java.xhtml',1,'']]],

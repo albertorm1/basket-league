@@ -103,13 +103,15 @@ $(function(){initNavTree('classes_1_1alrodmue_1_1model_1_1factories_1_1MatchFact
 <div class="dynheader">
 Diagrama de colaboración de es.alrodmue.model.factories.MatchFactory:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classes_1_1alrodmue_1_1model_1_1factories_1_1MatchFactory__coll__graph.svg" width="306" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classes_1_1alrodmue_1_1model_1_1factories_1_1MatchFactory__coll__graph.svg" width="306" height="354"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
 <tr class="memitem:a36775be085051f997996c57dd4f68dbc" id="r_a36775be085051f997996c57dd4f68dbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml">Match</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36775be085051f997996c57dd4f68dbc">create</a> (<a class="el" href="enumes_1_1alrodmue_1_1model_1_1matches_1_1MatchType.xhtml">MatchType</a> type, LocalDate date, <a class="el" href="classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml">Player</a>[] players)  throws <a class="el" href="classes_1_1alrodmue_1_1model_1_1exceptions_1_1MatchInvalidDataException.xhtml">MatchInvalidDataException</a>, <a class="el" href="classException.xhtml">Exception</a> </td></tr>
 <tr class="separator:a36775be085051f997996c57dd4f68dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a481753955106c594fed5a46f9d1ca62a" id="r_a481753955106c594fed5a46f9d1ca62a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml">Match</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a481753955106c594fed5a46f9d1ca62a">load</a> (int number, <a class="el" href="enumes_1_1alrodmue_1_1model_1_1matches_1_1MatchType.xhtml">MatchType</a> type, LocalDate date, int ownPoints, int rivalPoints, HashMap&lt; <a class="el" href="classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml">Player</a>, Integer &gt; points)  throws <a class="el" href="classes_1_1alrodmue_1_1model_1_1exceptions_1_1MatchInvalidDataException.xhtml">MatchInvalidDataException</a>, <a class="el" href="classException.xhtml">Exception</a> </td></tr>
+<tr class="separator:a481753955106c594fed5a46f9d1ca62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Métodos públicos estáticos</h2></td></tr>
@@ -220,6 +222,47 @@ Atributos estáticos privados</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Método para obtener la instancia única de la factoría, o crearla si no existe. </p><dl class="section return"><dt>Devuelve</dt><dd>Instancia única de la factoría. </dd></dl>
+
+</div>
+</div>
+<a id="a481753955106c594fed5a46f9d1ca62a" name="a481753955106c594fed5a46f9d1ca62a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a481753955106c594fed5a46f9d1ca62a">&#9670;&#160;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml">Match</a> es.alrodmue.model.factories.MatchFactory.load </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>number</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumes_1_1alrodmue_1_1model_1_1matches_1_1MatchType.xhtml">MatchType</a></td>          <td class="paramname"><span class="paramname"><em>type</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalDate</td>          <td class="paramname"><span class="paramname"><em>date</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ownPoints</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>rivalPoints</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HashMap&lt; <a class="el" href="classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml">Player</a>, Integer &gt;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;) throws <a class="el" href="classes_1_1alrodmue_1_1model_1_1exceptions_1_1MatchInvalidDataException.xhtml">MatchInvalidDataException</a>, <a class="el" href="classException.xhtml">Exception</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

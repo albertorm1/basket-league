@@ -1,9 +1,9 @@
 <map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
-<area shape="rect" id="Node000000" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml" title=" " alt="" coords="5,69,217,109"/>
-<area shape="rect" id="Node000001" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1ExhibitionMatch.xhtml" title=" " alt="" coords="265,5,477,45"/>
-<area shape="poly" id="edge5_Node000000_Node000001" title=" " alt="" coords="206,63,289,43,290,48,207,69"/>
-<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialLocalMatch.xhtml" title=" " alt="" coords="265,69,477,109"/>
-<area shape="poly" id="edge6_Node000000_Node000002" title=" " alt="" coords="231,87,265,87,265,92,231,92"/>
-<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialVisitorMatch.xhtml" title=" " alt="" coords="265,133,477,173"/>
-<area shape="poly" id="edge7_Node000000_Node000003" title=" " alt="" coords="207,110,290,131,289,136,206,115"/>
+<area shape="rect" id="Node000000" href="$classes_1_1alrodmue_1_1model_1_1fouls_1_1Foul.xhtml" title=" " alt="" coords="5,77,220,102"/>
+<area shape="rect" id="Node000001" href="$classes_1_1alrodmue_1_1model_1_1fouls_1_1FlagrantFoul.xhtml" title=" " alt="" coords="268,5,456,45"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="176,71,283,43,284,48,177,76"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1fouls_1_1PersonalFoul.xhtml" title=" " alt="" coords="268,69,456,109"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="234,87,268,87,268,92,234,92"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1fouls_1_1TechnicalFoul.xhtml" title=" " alt="" coords="268,133,456,173"/>
+<area shape="poly" id="edge4_Node000000_Node000003" title=" " alt="" coords="177,103,284,131,283,136,176,108"/>
 </map>

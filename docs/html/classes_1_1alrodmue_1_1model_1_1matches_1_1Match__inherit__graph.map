@@ -1,9 +1,9 @@
 <map id="es.alrodmue.model.matches.Match" name="es.alrodmue.model.matches.Match">
-<area shape="rect" id="Node000001" title=" " alt="" coords="233,5,437,425"/>
-<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1ExhibitionMatch.xhtml" title=" " alt="" coords="5,473,209,593"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,371,152,475,148,471,223,368"/>
-<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialLocalMatch.xhtml" title=" " alt="" coords="233,473,437,593"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="338,439,338,473,333,473,333,439"/>
-<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialVisitorMatch.xhtml" title=" " alt="" coords="461,473,665,593"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="448,368,523,471,519,475,443,371"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="233,5,437,525"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1ExhibitionMatch.xhtml" title=" " alt="" coords="5,573,209,713"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,448,151,575,147,572,224,445"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialLocalMatch.xhtml" title=" " alt="" coords="233,573,437,713"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="338,539,338,573,333,573,333,539"/>
+<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialVisitorMatch.xhtml" title=" " alt="" coords="461,573,665,713"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="447,445,524,572,519,575,442,448"/>
 </map>

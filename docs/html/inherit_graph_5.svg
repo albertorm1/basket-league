@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classes_1_1alrodmue_1_1model_1_1factories_1_1PlayerFactory.xhtml" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="classes_1_1alrodmue_1_1model_1_1factories_1_1MatchFactory.xhtml" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="160,-30 0,-30 0,0 160,0 160,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">es.alrodmue.model.factories.</text>
-<text text-anchor="middle" x="80" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerFactory</text>
+<text text-anchor="middle" x="80" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">MatchFactory</text>
 </a>
 </g>
 </g>

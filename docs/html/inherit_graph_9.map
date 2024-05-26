@@ -1,13 +1,9 @@
 <map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
-<area shape="rect" id="Node000000" href="$classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml" title=" " alt="" coords="5,133,209,173"/>
-<area shape="rect" id="Node000001" href="$classes_1_1alrodmue_1_1model_1_1players_1_1CenterPlayer.xhtml" title=" " alt="" coords="257,5,461,45"/>
-<area shape="poly" id="edge8_Node000000_Node000001" title=" " alt="" coords="145,123,196,88,256,55,286,43,288,48,258,60,199,93,148,127"/>
-<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1players_1_1PointGuardPlayer.xhtml" title=" " alt="" coords="257,69,461,109"/>
-<area shape="poly" id="edge9_Node000000_Node000002" title=" " alt="" coords="199,127,279,107,281,112,201,132"/>
-<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1players_1_1PowerForwardPlayer.xhtml" title=" " alt="" coords="257,133,461,173"/>
-<area shape="poly" id="edge10_Node000000_Node000003" title=" " alt="" coords="223,151,257,151,257,156,223,156"/>
-<area shape="rect" id="Node000004" href="$classes_1_1alrodmue_1_1model_1_1players_1_1ShootingGuardPlayer.xhtml" title=" " alt="" coords="257,197,461,237"/>
-<area shape="poly" id="edge11_Node000000_Node000004" title=" " alt="" coords="201,174,281,195,279,200,199,179"/>
-<area shape="rect" id="Node000005" href="$classes_1_1alrodmue_1_1model_1_1players_1_1SmallForwardPlayer.xhtml" title=" " alt="" coords="257,261,461,301"/>
-<area shape="poly" id="edge12_Node000000_Node000005" title=" " alt="" coords="148,179,199,214,258,247,288,259,286,264,256,252,196,219,145,184"/>
+<area shape="rect" id="Node000000" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml" title=" " alt="" coords="5,69,217,109"/>
+<area shape="rect" id="Node000001" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1ExhibitionMatch.xhtml" title=" " alt="" coords="265,5,477,45"/>
+<area shape="poly" id="edge5_Node000000_Node000001" title=" " alt="" coords="206,63,289,43,290,48,207,69"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialLocalMatch.xhtml" title=" " alt="" coords="265,69,477,109"/>
+<area shape="poly" id="edge6_Node000000_Node000002" title=" " alt="" coords="231,87,265,87,265,92,231,92"/>
+<area shape="rect" id="Node000003" href="$classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialVisitorMatch.xhtml" title=" " alt="" coords="265,133,477,173"/>
+<area shape="poly" id="edge7_Node000000_Node000003" title=" " alt="" coords="207,110,290,131,289,136,206,115"/>
 </map>

@@ -1,11 +1,11 @@
 var searchData=
 [
   ['acceptbutton_0',['acceptButton',['../classes_1_1alrodmue_1_1view_1_1AddMatchViewController.xhtml#a436c5db0c205c567ab77249b40494df0',1,'es.alrodmue.view.AddMatchViewController.acceptButton'],['../classes_1_1alrodmue_1_1view_1_1AddPlayerViewController.xhtml#ab50ac6469aeec9fcafe0b5852ecdd8e8',1,'es.alrodmue.view.AddPlayerViewController.acceptButton']]],
-  ['addfoul_1',['addFoul',['../classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#aa7896b8660268a3d13f31ebdc019d49e',1,'es::alrodmue::model::players::Player']]],
-  ['addmatch_2',['addMatch',['../classes_1_1alrodmue_1_1model_1_1Team.xhtml#ac882a9cbf64c23e15bf1fd319c6e5e40',1,'es::alrodmue::model::Team']]],
+  ['addfoul_1',['addFoul',['../classes_1_1alrodmue_1_1controller_1_1PersistenceController.xhtml#a490a5dc0e3193bde1aa5f968dc4c03d6',1,'es.alrodmue.controller.PersistenceController.addFoul()'],['../classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml#a57f9b3616b75add35afdb5246deaa9e9',1,'es.alrodmue.model.matches.Match.addFoul()'],['../classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#aa7896b8660268a3d13f31ebdc019d49e',1,'es.alrodmue.model.players.Player.addFoul()']]],
+  ['addmatch_2',['addMatch',['../classes_1_1alrodmue_1_1controller_1_1PersistenceController.xhtml#a70518c1b356cd049186db0378c9b82e6',1,'es.alrodmue.controller.PersistenceController.addMatch()'],['../classes_1_1alrodmue_1_1model_1_1Team.xhtml#ac882a9cbf64c23e15bf1fd319c6e5e40',1,'es.alrodmue.model.Team.addMatch()']]],
   ['addmatchviewcontroller_3',['AddMatchViewController',['../classes_1_1alrodmue_1_1view_1_1AddMatchViewController.xhtml',1,'es::alrodmue::view']]],
   ['addmatchviewcontroller_2ejava_4',['AddMatchViewController.java',['../AddMatchViewController_8java.xhtml',1,'']]],
-  ['addplayer_5',['addPlayer',['../classes_1_1alrodmue_1_1model_1_1Team.xhtml#a5e4f41c785c74d800af1c5e4e6f3885e',1,'es::alrodmue::model::Team']]],
+  ['addplayer_5',['addPlayer',['../classes_1_1alrodmue_1_1controller_1_1PersistenceController.xhtml#a28dc0931accd00a398de3fbd2d13dd7b',1,'es.alrodmue.controller.PersistenceController.addPlayer()'],['../classes_1_1alrodmue_1_1model_1_1Team.xhtml#a5e4f41c785c74d800af1c5e4e6f3885e',1,'es.alrodmue.model.Team.addPlayer()']]],
   ['addplayerbutton_6',['addPlayerButton',['../classes_1_1alrodmue_1_1view_1_1MainViewController.xhtml#a65780784d308163f6cac963281dfc770',1,'es::alrodmue::view::MainViewController']]],
   ['addplayerviewcontroller_7',['AddPlayerViewController',['../classes_1_1alrodmue_1_1view_1_1AddPlayerViewController.xhtml',1,'es::alrodmue::view']]],
   ['addplayerviewcontroller_2ejava_8',['AddPlayerViewController.java',['../AddPlayerViewController_8java.xhtml',1,'']]],

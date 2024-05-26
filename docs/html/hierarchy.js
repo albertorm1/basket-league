@@ -25,6 +25,7 @@ var hierarchy =
       [ "es.alrodmue.model.fouls.TechnicalFoul", "classes_1_1alrodmue_1_1model_1_1fouls_1_1TechnicalFoul.xhtml", null ]
     ] ],
     [ "es.alrodmue.model.factories.FoulFactory", "classes_1_1alrodmue_1_1model_1_1factories_1_1FoulFactory.xhtml", null ],
+    [ "es.alrodmue.model.fouls.FoulType", "enumes_1_1alrodmue_1_1model_1_1fouls_1_1FoulType.xhtml", null ],
     [ "es.alrodmue.model.matches.Match", "classes_1_1alrodmue_1_1model_1_1matches_1_1Match.xhtml", [
       [ "es.alrodmue.model.matches.ExhibitionMatch", "classes_1_1alrodmue_1_1model_1_1matches_1_1ExhibitionMatch.xhtml", null ],
       [ "es.alrodmue.model.matches.OfficialLocalMatch", "classes_1_1alrodmue_1_1model_1_1matches_1_1OfficialLocalMatch.xhtml", null ],
@@ -33,6 +34,7 @@ var hierarchy =
     [ "es.alrodmue.controller.MatchController", "classes_1_1alrodmue_1_1controller_1_1MatchController.xhtml", null ],
     [ "es.alrodmue.model.factories.MatchFactory", "classes_1_1alrodmue_1_1model_1_1factories_1_1MatchFactory.xhtml", null ],
     [ "es.alrodmue.model.matches.MatchType", "enumes_1_1alrodmue_1_1model_1_1matches_1_1MatchType.xhtml", null ],
+    [ "es.alrodmue.controller.PersistenceController", "classes_1_1alrodmue_1_1controller_1_1PersistenceController.xhtml", null ],
     [ "es.alrodmue.model.players.Player", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml", [
       [ "es.alrodmue.model.players.CenterPlayer", "classes_1_1alrodmue_1_1model_1_1players_1_1CenterPlayer.xhtml", null ],
       [ "es.alrodmue.model.players.PointGuardPlayer", "classes_1_1alrodmue_1_1model_1_1players_1_1PointGuardPlayer.xhtml", null ],

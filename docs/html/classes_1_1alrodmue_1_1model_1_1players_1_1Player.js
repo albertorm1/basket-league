@@ -1,6 +1,7 @@
 var classes_1_1alrodmue_1_1model_1_1players_1_1Player =
 [
     [ "Player", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a4f8f54729fc34489756e1a55635e3e59", null ],
+    [ "Player", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a33aaa7324f96f98bd5b2dcee378a8074", null ],
     [ "addFoul", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#aa7896b8660268a3d13f31ebdc019d49e", null ],
     [ "addPoints", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a56c0a4dd39d3cc36d28066d0fc92320f", null ],
     [ "arePointsValid", "classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml#a2585017474ce01244ed95f3d324e63ce", null ],

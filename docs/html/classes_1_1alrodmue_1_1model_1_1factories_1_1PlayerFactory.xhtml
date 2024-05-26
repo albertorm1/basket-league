@@ -103,13 +103,15 @@ $(function(){initNavTree('classes_1_1alrodmue_1_1model_1_1factories_1_1PlayerFac
 <div class="dynheader">
 Diagrama de colaboración de es.alrodmue.model.factories.PlayerFactory:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classes_1_1alrodmue_1_1model_1_1factories_1_1PlayerFactory__coll__graph.svg" width="306" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classes_1_1alrodmue_1_1model_1_1factories_1_1PlayerFactory__coll__graph.svg" width="306" height="354"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
 <tr class="memitem:aecc91ec27700c05282c7d1f394c28382" id="r_aecc91ec27700c05282c7d1f394c28382"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml">Player</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecc91ec27700c05282c7d1f394c28382">create</a> (String name, int height, int skill)  throws <a class="el" href="classes_1_1alrodmue_1_1model_1_1exceptions_1_1PlayerInvalidDataException.xhtml">PlayerInvalidDataException</a> </td></tr>
 <tr class="separator:aecc91ec27700c05282c7d1f394c28382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ea8308aba383c8ef61268c4be54c11" id="r_a13ea8308aba383c8ef61268c4be54c11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml">Player</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13ea8308aba383c8ef61268c4be54c11">load</a> (String name, int number, int height, int skill, int totalPoints)  throws <a class="el" href="classes_1_1alrodmue_1_1model_1_1exceptions_1_1PlayerInvalidDataException.xhtml">PlayerInvalidDataException</a> </td></tr>
+<tr class="separator:a13ea8308aba383c8ef61268c4be54c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Métodos públicos estáticos</h2></td></tr>
@@ -220,6 +222,59 @@ Atributos estáticos privados</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Método para crear u obtener la instancia de la factoría. </p><dl class="section return"><dt>Devuelve</dt><dd>Instancia única de la factoría. </dd></dl>
+
+</div>
+</div>
+<a id="a13ea8308aba383c8ef61268c4be54c11" name="a13ea8308aba383c8ef61268c4be54c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ea8308aba383c8ef61268c4be54c11">&#9670;&#160;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classes_1_1alrodmue_1_1model_1_1players_1_1Player.xhtml">Player</a> es.alrodmue.model.factories.PlayerFactory.load </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>number</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>skill</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>totalPoints</em></span>&#160;) throws <a class="el" href="classes_1_1alrodmue_1_1model_1_1exceptions_1_1PlayerInvalidDataException.xhtml">PlayerInvalidDataException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Método que determina que tipo de jugador debe importar y crea el objeto correspondiente. </p><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Nombre completo del jugador. </td></tr>
+    <tr><td class="paramname">number</td><td>Número de dorsal del jugador. </td></tr>
+    <tr><td class="paramname">height</td><td>Altura del jugador en centímetros. </td></tr>
+    <tr><td class="paramname">skill</td><td>Nivel de habilidad del jugador, expresado del 1 al 5. </td></tr>
+    <tr><td class="paramname">points</td><td>Puntos totales del jugador. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Jugador generado. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PlayerInvalidDataException</td><td>Excepción que se producirá si alguno de los datos del jugador no es válido. Contiene como mensaje un mensaje de error entendible por los usuarios. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

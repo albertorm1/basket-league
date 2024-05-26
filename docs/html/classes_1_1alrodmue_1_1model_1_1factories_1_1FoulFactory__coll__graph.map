@@ -1,6 +1,6 @@
 <map id="es.alrodmue.model.factories.FoulFactory" name="es.alrodmue.model.factories.FoulFactory">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,188,211,308"/>
-<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1factories_1_1FoulFactory.xhtml" title=" " alt="" coords="5,5,211,125"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,126,111,171,105,171,105,126"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="212,48,230,54,237,65,229,77,224,74,232,65,227,58,210,53"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,208,211,348"/>
+<area shape="rect" id="Node000002" href="$classes_1_1alrodmue_1_1model_1_1factories_1_1FoulFactory.xhtml" title=" " alt="" coords="5,5,211,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,145,111,191,105,191,105,145"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="212,56,230,63,237,75,235,83,228,89,225,85,230,80,232,76,226,67,210,61"/>
 </map>
