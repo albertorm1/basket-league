@@ -26,8 +26,8 @@ public class PersonalFoul extends Foul {
      * @returns String con el tipo de la falta.
      */
     @Override
-    public String getType() {
-        return "Falta personal";
+    public FoulType getType() {
+        return FoulType.PERSONAL;
     }
 
 }

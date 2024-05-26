@@ -3,6 +3,7 @@ package es.alrodmue.model.factories;
 import es.alrodmue.model.exceptions.FoulInvalidDataException;
 import es.alrodmue.model.fouls.FlagrantFoul;
 import es.alrodmue.model.fouls.Foul;
+import es.alrodmue.model.fouls.FoulType;
 import es.alrodmue.model.fouls.PersonalFoul;
 import es.alrodmue.model.fouls.TechnicalFoul;
 import es.alrodmue.model.matches.Match;
@@ -49,6 +50,28 @@ public class FoulFactory {
             default:
                 foul = new TechnicalFoul(player, match);
                 break;
+        }
+
+        return foul;
+    }
+
+    /**
+     * Método que carga una falta.
+     * @param type Tipo de la falta.
+     * @param player Jugador que comete la falta.
+     * @param match Partido en el que se comete la falta.
+     * @return Falta cargarda.
+     * @throws FoulInvalidDataException Excepción producida si alguno de los datos introducidos no es válido.
+     */
+    public Foul load(FoulType type, Player player, Match match) throws FoulInvalidDataException {
+        Foul foul;
+
+        if (type == FoulType.PERSONAL) {
+            foul = new PersonalFoul(player, match);
+        } else if (type == FoulType.FLAGRANT) {
+            foul = new FlagrantFoul(player, match);
+        } else {
+            foul = new TechnicalFoul(player, match);
         }
 
         return foul;

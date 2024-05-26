@@ -70,5 +70,5 @@ public abstract class Foul {
      * Método abstracto para obtener el tipo de falta cometida.
      * @returns Cadena de texto con el tipo de falta cometida.
      */
-    public abstract String getType();
+    public abstract FoulType getType();
 }

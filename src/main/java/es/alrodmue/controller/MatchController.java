@@ -69,10 +69,12 @@ public class MatchController {
         // Crea el partido
         try {
             match = factory.create(type, LocalDate.now(), playerList);
+            PersistenceController.getInstance().addMatch(match);
             
             // Asigna las faltas a los jugadores
             for (Foul foul: match.getFouls()) {
                 foul.getPlayer().addFoul(foul);
+                PersistenceController.getInstance().addFoul(foul);
             }
 
             // Añade los puntos a cada jugador
@@ -82,7 +84,6 @@ public class MatchController {
 
             // Añade el partido a la lista y muestra los detalles del partido
             team.addMatch(match);
-            PersistenceController.getInstance().addMatch(match);
             App.closeModal();
             this.showInfo("Resumen del partido", match.getDetails());
 

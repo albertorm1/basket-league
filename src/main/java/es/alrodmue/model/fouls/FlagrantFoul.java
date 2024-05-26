@@ -26,8 +26,8 @@ public class FlagrantFoul extends Foul {
      * @returns String con el tipo de la falta.
      */
     @Override
-    public String getType() {
-        return "Falta flagrante";
+    public FoulType getType() {
+        return FoulType.FLAGRANT;
     }
 
 }

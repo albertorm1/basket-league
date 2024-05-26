@@ -10,9 +10,11 @@ import java.util.Map;
 import java.util.Scanner;
 
 import es.alrodmue.model.Team;
+import es.alrodmue.model.factories.FoulFactory;
 import es.alrodmue.model.factories.MatchFactory;
 import es.alrodmue.model.factories.PlayerFactory;
 import es.alrodmue.model.fouls.Foul;
+import es.alrodmue.model.fouls.FoulType;
 import es.alrodmue.model.matches.Match;
 import es.alrodmue.model.matches.MatchType;
 import es.alrodmue.model.players.Player;
@@ -161,6 +163,19 @@ public class PersistenceController {
             writer.print(String.format("\n%s", data));
         }
     }
+
+    /**
+     * Método para añadir una falta al archivo.
+     * @param foul Falta a añadir.
+     * @throws Exception Excepción inesperada.
+     */
+    public void addFoul(Foul foul) throws Exception {
+        String data = String.format("F\t%s\t%s\t%s", foul.getType().name(), foul.getPlayer().getNumber(), foul.getMatch().getNumber());
+
+        try (PrintWriter writer = new PrintWriter(new FileWriter(this.file, true))) {
+            writer.print(String.format("\n%s", data));
+        }
+    }
     
     /**
      * Método que carga en el sistema todos los datos.
@@ -184,6 +199,9 @@ public class PersistenceController {
                         break;
                     case "M":
                         this.loadMatch(data);
+                        break;
+                    case "F":
+                        this.loadFoul(data);
                         break;
                 }
             }
@@ -234,5 +252,21 @@ public class PersistenceController {
 
         match = MatchFactory.getInstance().load(number, type, date, ownPoints, rivalPoints, points);
         Team.getInstance().addMatch(match);
+    }
+
+    /**
+     * Método para cargar una falta.
+     * @param data Array con los datos de la falta.
+     * @throws Exception Excepción inesperada.
+     */
+    private void loadFoul(String[] data) throws Exception {
+
+        FoulType type = FoulType.valueOf(data[1]);
+        Player player = this.getPlayerFromNumber(Integer.parseInt(data[2]));
+        Match match = this.getMatchFromNumber(Integer.parseInt(data[3]));
+        Foul foul = FoulFactory.getInstance().load(type, player, match);
+
+        player.addFoul(foul);
+        match.addFoul(foul); 
     }
 }

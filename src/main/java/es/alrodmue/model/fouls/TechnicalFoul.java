@@ -27,8 +27,8 @@ public class TechnicalFoul extends Foul {
      * @returns String con el tipo de la falta.
      */
     @Override
-    public String getType() {
-        return "Falta técnica";
+    public FoulType getType() {
+        return FoulType.TECHNICAL;
     }
 
 }

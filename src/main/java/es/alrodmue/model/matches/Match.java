@@ -246,6 +246,14 @@ public abstract class Match {
     }
 
     /**
+     * Método que añade una falta al partido.
+     * @param foul Falta a añadir.
+     */
+    public void addFoul(Foul foul) {
+        this.fouls.add(foul);
+    }
+
+    /**
      * Método abstracto que calcula quien es el ganador.
      * @returns Valor booleano que indica si el ganador es el equipo propio (true) o el rival (false)
      */
