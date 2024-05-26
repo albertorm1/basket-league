@@ -49,6 +49,7 @@ public class PlayerController {
             height = Integer.parseInt(heightString); 
             player = factory.create(name, height, skill);
             team.addPlayer(player);
+            PersistenceController.getInstance().addPlayer(player);
             App.closeModal();
         } catch (PlayerInvalidDataException e) {
             this.showError(e.getMessage());
@@ -90,10 +91,15 @@ public class PlayerController {
      * Método para eliminar un jugador.
      * @param player Jugador a eliminar. 
      */
-    public void removePlayer(Player player) {
-        Team team = Team.getInstance();
-        team.removePlayer(player);
-        this.showInfo("Jugador eliminado", String.format("El jugador %s ha sido eliminado con éxito", player.getName()));
+    public void removePlayer(Player player){
+        try {
+            Team team = Team.getInstance();
+            team.removePlayer(player);
+            PersistenceController.getInstance().removePlayer(player);
+            this.showInfo("Jugador eliminado", String.format("El jugador %s ha sido eliminado con éxito", player.getName()));
+        } catch (Exception e) {
+            this.showError("Error inesperado.");
+        }
     }
 
 

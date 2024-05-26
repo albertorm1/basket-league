@@ -3,6 +3,7 @@
 
 package es.alrodmue.model.players;
 
+import es.alrodmue.controller.PersistenceController;
 import es.alrodmue.model.exceptions.PlayerInvalidDataException;
 import es.alrodmue.model.exceptions.PlayerInvalidHeightException;
 import es.alrodmue.model.exceptions.PlayerInvalidNameException;
@@ -217,8 +218,9 @@ public abstract class Player {
      * 
      * @param points Número de puntos a añadir.
      */
-    public void addPoints(int points) {
+    public void addPoints(int points) throws Exception {
         this.points += points;
+        PersistenceController.getInstance().updatePlayer(this);
     }
 
     /**

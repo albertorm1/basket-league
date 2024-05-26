@@ -1,6 +1,8 @@
 package es.alrodmue.controller;
 
 import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -39,6 +41,82 @@ public class PersistenceController {
         return instance;
     }
 
+    /**
+     * Método para añadir un jugador al archivo.
+     * @param player Jugador a añadir.
+     * @throws Exception Excepción inesperada.
+     */
+    public void addPlayer(Player player) throws Exception {
+        String data = String.format("P\t%s\t%s\t%s\t%s\t%s\ttrue", player.getName(), player.getNumber(), player.getHeight(), player.getSkill(), player.getPoints());
+        try (PrintWriter writer = new PrintWriter(new FileWriter(this.file, true))) {
+            writer.print(String.format("\n%s", data));
+        }
+    }
+
+    /**
+     * Método para eliminar a un jugador del equipo
+     * @param player Jugador a eliminar
+     * @throws Exception Excepción inesperada
+     */
+    public void removePlayer(Player player) throws Exception {
+        String fileName = this.file.getName();
+        File tempFile = new File(fileName + ".tmp");
+        String rawData, newData;
+        String[] data;
+
+        try (Scanner sc = new Scanner(file); PrintWriter writer = new PrintWriter(tempFile)) {
+            while (sc.hasNextLine()) {
+                rawData = sc.nextLine();
+                data = rawData.split("\t");
+
+                if (rawData.isBlank()) continue;
+                if (data[0] == null) continue;
+
+                if (data[0].equals("P") && data[2].equals(String.valueOf(player.getNumber()))) {
+                    newData = String.format("P\t%s\t%s\t%s\t%s\t%s\tfalse", player.getName(), player.getNumber(), player.getHeight(), player.getSkill(), player.getPoints());
+                    writer.println(newData);
+                } else {
+                    writer.println(rawData);
+                }
+            }
+
+        }
+        this.file.delete();
+        tempFile.renameTo(this.file);
+    }
+
+    /**
+     * Excepción para actualizar a un jugador
+     * @param player Jugador a actualizar
+     * @throws Exception Excepción inesperada
+     */
+    public void updatePlayer(Player player) throws Exception {
+        String fileName = this.file.getName();
+        File tempFile = new File(fileName + ".tmp");
+        String rawData, newData;
+        String[] data;
+
+        try (Scanner sc = new Scanner(file); PrintWriter writer = new PrintWriter(tempFile)) {
+            while (sc.hasNextLine()) {
+                rawData = sc.nextLine();
+                data = rawData.split("\t");
+
+                if (rawData.isBlank()) continue;
+                if (data[0] == null) continue;
+
+                if (data[0].equals("P") && data[2].equals(String.valueOf(player.getNumber()))) {
+                    newData = String.format("P\t%s\t%s\t%s\t%s\t%s\t%s", player.getName(), player.getNumber(), player.getHeight(), player.getSkill(), player.getPoints(), data[6]);
+                    writer.println(newData);
+                } else {
+                    writer.println(rawData);
+                }
+            }
+
+        }
+        this.file.delete();
+        tempFile.renameTo(this.file);
+    }
+    
     /**
      * Método que carga en el sistema todos los datos.
      * @throws Exception Excepción inesperada.
